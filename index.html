@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noah Al-Soodinay</title>
+    <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="icon" href="IMG/LOGO/Noah.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Main Navbar -->
+    <nav class="navbar fixed-top">
+        <div class="dropdown">
+            <button class="dropdown-button">Portfolio</button>
+            <div class="dropdown-content">
+                <a href="contact.html">Contact Me</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Toggle Button for Sidebar -->
+    <button id="sidebar-toggle" class="sidebar-toggle">☰</button>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar-nav sidebar-hidden">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#personal-details">Personal Details</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="container-fluid d-flex flex-column align-items-center justify-content-center text-center vh-100 scroll-animate">
+        <div class="content mt-5">
+            <h1 class="main-title text-effect hi-noah" data-text="你好，我是丰翔">你好，我是丰翔</h1>
+            <h1 class="main-title text-effect hi-noah" data-text="HI, I'M NOAH">HI, I'M NOAH</h1>
+            <h1 class="main-title text-effect hi-noah" data-text="اهلا وسهلا أنا نوح">اهلا وسهلا أنا نوح</h1>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="container-fluid d-flex flex-column align-items-center justify-content-center text-center py-5">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">ABOUT</button>
+        </div>
+        <div class="row mt-5 align-items-center scroll-animate">
+            <div class="col-md-6">
+                <img src="IMG/Me.png" alt="About Me" class="img-fluid rounded shadow about-img">
+            </div>
+            <div class="col-md-6 text-start scroll-animate">
+                <h2 class="mb-4">About Me</h2>
+                <p>
+                    I am a dedicated and enthusiastic individual with a deep passion for computer networking and cybersecurity. 
+                    My journey began at the Institute of Technical Education (ITE), where I laid the foundational skills in network 
+                    technology, and it continues to grow as I pursue my current course in Infocomm & Security at Nanyang Polytechnic. 
+                </p>
+                <p>
+                    Beyond academics, I am actively involved in various school events and have held multiple leadership roles, 
+                    which have not only strengthened my technical abilities but also nurtured my skills in communication, 
+                    team collaboration, and leadership. My commitment to continuous learning drives me to stay updated with the 
+                    latest trends and technologies in the IT field, and I am eager to contribute my knowledge and skills to the 
+                    dynamic and evolving tech community.
+                </p>
+                <p>
+                    These experiences have shaped me into a well-rounded individual who values teamwork, adaptability, and 
+                    problem-solving.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container-fluid my-5">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">PROJECTS</button>
+        </div>
+        <div class="project-card-container"> <!-- Wrapper for flexbox/grid -->
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal0">
+                <img src="IMG/PRJ/Personal.png" class="img-fluid rounded project-img" alt="Project 0">
+                <h3><b>Personal Portfolio Website</b></h3>
+                <p>
+                    This personal portfolio website was designed and developed to showcase my skills and projects. 
+                    Built using HTML, CSS, and JavaScript, the site features a modern, responsive design with smooth navigation and interactive elements, reflecting my professional journey and personal style.
+                </p>
+
+                <div class="project-tags">
+                    <span class="tag">2024</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal1">
+                <img src="IMG/PRJ/MyUploads.png" class="img-fluid rounded project-img" alt="Project 1">
+                <h3><b>MyUploads</b></h3>
+                <p>A secure file upload and storage platform developed using Python (Flask) with MySQL for database management, and HTML, CSS, and JavaScript for a responsive front-end. 
+                    The platform integrates advanced authentication methods to ensure robust data security.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">2024</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">API</span>
+                </div>
+            </div>
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal2">
+                <img src="IMG/PRJ/Energy.png" class="img-fluid rounded project-img" alt="Project 2">
+                <h3><b>Sustainable Living Tips and Energy Tracker</b></h3>
+                <p>An application designed to encourage eco-friendly habits and track energy usage, developed using Flask, Python, HTML, CSS, and JavaScript. 
+                    It offers features like energy consumption tracking and personalized sustainable living tips, with a user-friendly interface and interactive components for enhanced engagement.
+                </p>
+                <div class="project-tags">
+                    <span class="tag">2024</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+            </div>
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal3">
+                <img src="IMG/PRJ/UXD.png" class="img-fluid rounded project-img" alt="Project 3">
+                <h3><b>Illumia Hotel - UI/UX Wireframe</b></h3>
+                <p>A Wireframe for a Hotel WebApp that Mainly Focuses on the UI/UX Design.</p>
+                <div class="project-tags">
+                    <span class="tag">2023</span>
+                    <span class="tag">Figma</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals for Projects -->
+        <!-- Modal 0 -->
+        <div class="modal fade" id="projectModal0" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel0" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel0"><b>Personal Portfolio Website</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/Personal2.png" class="img-fluid mb-3" alt="Personal Portfolio Project">
+                        <div class="modal-text">
+                            <p><strong>Project Description:</strong></p>
+                            <p>This project is a personal portfolio website designed to showcase my work, skills, and personal traits in a visually appealing and organized manner. 
+                                The goal was to create a modern, responsive, and user-friendly platform that reflects my personality and professional capabilities.
+                            </p>
+                            
+                            <p><strong>Tools and Technologies Used:</strong></p>
+                            <ul>
+                                <li><b>Bootstrap:</b> Utilized for building a responsive and mobile-friendly layout.</li>
+                                <li><b>Font Awesome:</b> Integrated for icons that enhance visual appeal and navigation.</li>
+                                <li><b>Google Fonts:</b> Chosen to match the overall aesthetic of the site with clean typography.</li>
+                                <li><b>jQuery and JavaScript:</b> Used for interactive elements, such as smooth scrolling and modal popups.</li>
+                                <li><b>HTML & CSS:</b> Developed the core structure and styling of the website, ensuring a modern and cohesive design.</li>
+                            </ul>
+
+                            <p><strong>Development Highlights:</strong></p>
+                            <ul>
+                                <li><b>Design:</b> Selected a cohesive color palette and layout that aligns with my personal brand.</li>
+                                <li><b>Implementation:</b> Developed the site using Visual Studio Code, incorporating best practices in HTML, CSS, and JavaScript.</li>
+                                <li><b>Responsive Design:</b> Ensured the website adapts well across various devices, providing a seamless user experience.</li>
+                            </ul>
+
+                            <p>
+                                <strong>GitHub repository:<br></strong>
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Noaahfx/Personal-Portfolio-Website" target="_blank" class="custom-link">GitHub</a>
+                            </p>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 1 -->
+        <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel1"><b>MyUploads</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/MyUploads2.png" class="img-fluid mb-3" alt="Project 1">
+                        <div class="modal-text">
+                            <p><strong>Project Description:</strong></p>
+                            <p>This application provides a secure platform for file upload & storage, emphasizing robust security measures. Developed using Python with Flask and managed via MySQL Workbench, it integrates advanced authentication methods and user-friendly interfaces to ensure data protection.</p>
+                            
+                            <p><strong>Features Developed By Me:</strong></p>
+                            <ul>
+                                <li><b>Registration:</b> Secure registration with validation and protected credential storage.</li>
+                                <li><b>Captcha (hCaptcha):</b> Blocks automated bot registrations.</li>
+                                <li><b>Email Verification:</b> Confirms user emails through verification links.</li>
+                                <li><b>Login Alerts (ipify/ipinfo):</b> Notifies users of logins from new IP addresses or devices.</li>
+                                <li><b>Phone Number Verification (Twilio):</b> Verifies phone numbers via SMS.</li>
+                                <li><b>Phone Number OTP Login (Twilio):</b> Secure login with OTP sent to verified phone numbers.</li>
+                                <li><b>Email 2FA:</b> Adds email-based two-factor authentication for login security.</li>
+                                <li><b>SMS 2FA (Twilio):</b> Uses SMS codes for additional login security.</li>
+                                <li><b>App 2FA (PyOTP):</b> App-based two-factor authentication with authenticator apps.</li>
+                                <li><b>OAUTH (Google):</b> Allows secure login and sign-up through Google.</li>
+                                <li><b>Forgot Password (Email/SMS OTP):</b> Secure password recovery via email or SMS.</li>
+                                <li><b>Password Change:</b> Secure password updates with verification.</li>
+                            </ul>
+        
+                            <p><strong>Technological Components Used:</strong></p>
+                            <ul>
+                                <li><b>Flask Framework:</b> Lightweight backend for efficient development.</li>
+                                <li><b>Database Management:</b> Managed with MySQL Workbench.</li>
+                                <li><b>Front-end:</b> HTML, CSS, and minimal JavaScript for a clean, responsive interface.</li>
+                            </ul>
+        
+                            <p><strong>Features Developed by Other Members:</strong></p>
+                            <ul>
+                                <li><b>RBAC:</b> Manages user permissions and group access.</li>
+                                <li><b>Hashing & Encryption:</b> Secures passwords and sensitive data.</li>
+                                <li><b>Preventing SQLi and XSS:</b> Uses parameterized queries and input validation.</li>
+                                <li><b>Face Recognition:</b> For secure and convenient logins.</li>
+                                <li><b>HTTPS:</b> Secure communication with SSL.</li>
+                                <li><b>Password History:</b> Prevents password reuse.</li>
+                                <li><b>Session Management:</b> Includes session locks and timeouts.</li>
+                                <li><b>File Upload Security:</b> Virus scanning and validation checks.</li>
+                                <li><b>Input Validation:</b> Ensures data integrity and security.</li>
+                            </ul>
+                            <p>
+                                <strong>GitHub repository:<br></strong>
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Noaahfx/MyUploads" target="_blank" class="custom-link">GitHub</a>
+                            </p>                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="projectModal2" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel2"><b>Sustainable Living Tips and Energy Tracker</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/Energy2.png" class="img-fluid mb-3" alt="Project 2">
+                        <p><b>Project Description:</b></p>
+                        <p>
+                            The Sustainable Living Tips and Energy Tracker is an application designed to promote eco-conscious habits and efficient energy use.
+                            Leveraging Flask, HTML, CSS, and minimal JavaScript, the project integrates educational content with user-friendly interfaces.
+                            Implementations include Plotly for visualizing graphs in the Energy Consumption Tracker feature and WTForms for form creation and validation, including email validators for data accuracy in the Enquiry Form.
+                        </p>
+                        
+                        <p><b>Features Developed By Me:</b></p>
+                        <ul>
+                            <li><b>Energy Consumption Tracker:</b> Empower users to log monthly energy usage, visualized through graphs for easy comparison using Plotly.</li>
+                            <li><b>Enquiry Form:</b> Facilitate engagement through an online form for inquiries about energy-saving practices, utilizing WTForms for form validation.</li>
+                        </ul>
+
+                        <p><b>Technological Components Used:</b></p>
+                        <ul>
+                            <li><b>Flask Framework:</b> Ensures a streamlined user experience through Flask's simplicity.</li>
+                            <li><b>Python Classes and Objects:</b> Implements a structured data model with basic classes.</li>
+                            <li><b>Storage with Shelve:</b> Manages energy usage data efficiently using Shelve, with potential integration into existing infrastructure.</li>
+                            <li><b>Basic Front-end Technologies:</b> HTML, CSS, and minimal JavaScript for a clean, user-friendly interface.</li>
+                        </ul>
+
+                        <p><b>Features Developed by Other Members:</b></p>
+                        <ul>
+                            <li><b>Sustainable Living Tips:</b> Engage users with quizzes for personalized guidance on sustainable practices.</li>
+                            <li><b>Basic User Profiles:</b> Allows users to create and manage profiles.</li>
+                            <li><b>Online Transactions:</b> Supports transactions for purchasing energy-efficient products.</li>
+                            <li><b>Feedback System:</b> Gathers valuable user feedback for continuous improvement.</li>
+                            <li><b>Rewards System:</b> Motivates users with a points-based system to redeem accumulated points for rewards.</li>
+                            <li><b>Content Management:</b> Ensures efficient content management for admins, keeping the platform relevant.</li>
+                        </ul>
+                        <p>
+                            <strong>GitHub repository:<br></strong>
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/Noaahfx/Sustainable-Living-Tips-and-Energy-Tracker" target="_blank" class="custom-link">GitHub</a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 3 -->
+        <div class="modal fade" id="projectModal3" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel3"><b>Illumia Hotel - UI/UX Wireframe</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/UXD.png" class="img-fluid mb-3" alt="Project 3">
+                        <p>The goal of this project was to design a hotel website that emphasizes user interface (UI) and user experience (UX) design, prioritizing intuitive navigation and engaging interactions. The focus was on crafting a visually appealing and user-friendly website that enhances the overall experience for visitors.</p>
+                        <p>The entire wireframe was meticulously developed in Figma, drawing design inspiration was mainly from Marina Bay Sands and various renowned hotel websites.</p>
+                        
+                        <p>
+                            <strong>Download a copy of my design artboards here:<br></strong>
+                            <a href="PDF/Noah_UXD.pdf" target="_blank" class="github-link">
+                                <img src="IMG/LOGO/Hotel.png" alt="GitHub Icon" class="github-icon">Illumia Hotel PDF
+                            </a>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container-fluid d-flex flex-column align-items-center justify-content-center text-center ">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">ACHIEVEMENTS</button>
+        </div>
+
+        <!-- NYP Achievements Carousel -->
+        <h3 class="mt-4 mb-3 scroll-animate">NYP Achievements</h3>
+        <div id="nypCarousel" class="carousel slide mb-5 nyp-carousel scroll-animate" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMG/NYP/Scholarship.png" class="d-block w-100 achievement-img" alt="NYP Achievement 1" data-toggle="modal" data-target="#nypModal1">
+                    <div class="achievement-description p-3">
+                        <h5><b>NYP Scholarship (Mid-Term) </b></h5>
+                        <p>The NYP Scholarship is offered to top performing Year 2 students who are pursuing full time diploma courses in NYP.</p>
+                        <div class="project-tags">
+                            <span class="tag">2024</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/NYP/Perform.png" class="d-block w-100 achievement-img" alt="NYP Achievement 2" data-toggle="modal" data-target="#nypModal2">
+                    <div class="achievement-description p-3">
+                        <h5><b>Best Performing Student [Y1] [Diploma in Infocomm & Security]</b></h5>
+                        <p>Awarded to a Top Performing Student in Course of Study in their Cohort.</p>
+                        <div class="project-tags">
+                            <span class="tag">2024</span>
+                            <span class="tag">2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/NYP/NYPDlist.png" class="d-block w-100 achievement-img" alt="NYP Achievement 3" data-toggle="modal" data-target="#nypModal3">
+                    <div class="achievement-description p-3">
+                        <h5><b>Director's List [Y1S1/S2]</b></h5>
+                        <p>Awarded to Top 15% in Course of Study at Nanyang Polytechnic.</p>
+                        <div class="project-tags">
+                            <span class="tag">2024</span>
+                            <span class="tag">2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#nypCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#nypCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- ITE Achievements Carousel -->
+        <h3 class="mt-4 mb-3 scroll-animate">ITE Achievements</h3>
+        <div id="iteCarousel" class="carousel slide mb-5 ite-carousel scroll-animate" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="IMG/ITE/Outstanding.png" class="d-block w-100 achievement-img" alt="ITE Achievement 1" data-toggle="modal" data-target="#iteModal1">
+                    <div class="achievement-description p-3">
+                        <h5><b>Outstanding Graduate Award</b></h5>
+                        <p>Awarded to a Top Graduate in Course of Study at ITE College East.</p>
+                        <div class="project-tags">
+                            <span class="tag">2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Eagles.png" class="d-block w-100 achievement-img" alt="ITE Achievement 2" data-toggle="modal" data-target="#iteModal2">
+                    <div class="achievement-description p-3">
+                        <h5><b>Edusave Award for Achievement, Good Leadership and Service (EAGLES) 2023</b></h5>
+                        <p>Awarded to Students for Demonstrating Leadership Qualities, Service to Community and Schools, Excellence in Non-academic Activities, and Good Conduct.</p>
+                        <div class="project-tags">
+                            <span class="tag">2023</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Academic.png" class="d-block w-100 achievement-img" alt="ITE Achievement 3" data-toggle="modal" data-target="#iteModal3">
+                    <div class="achievement-description p-3">
+                        <h5><b>Edusave Certificate of Academic Achievement 2022/2023</b></h5>
+                        <p>Awarded to Students for Achieving Good Academic Performance and Demonstrating Good Conduct.</p>
+                        <div class="project-tags">
+                            <span class="tag">2023</span>
+                            <span class="tag">2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/ITEDlist.png" class="d-block w-100 achievement-img" alt="ITE Achievement 4" data-toggle="modal" data-target="#iteModal4">
+                    <div class="achievement-description p-3">
+                        <h5><b>Director's List [Y1S1/S2]</b></h5>
+                        <p>Awarded to Top 10% in Course of Study at ITE College East.</p>
+                        <div class="project-tags">
+                            <span class="tag">2022</span>
+                            <span class="tag">2021</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Service.png" class="d-block w-100 achievement-img" alt="ITE Achievement 5" data-toggle="modal" data-target="#iteModal5">
+                    <div class="achievement-description p-3">
+                        <h5><b>Gold Service Star Award</b></h5>
+                        <p>Awarded to students for their exceptional efforts and contributions in charitable acts and/or service to ITE College East.</p>
+                        <div class="project-tags">
+                            <span class="tag">2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Character.png" class="d-block w-100 achievement-img" alt="ITE Achievement 6" data-toggle="modal" data-target="#iteModal6">
+                    <div class="achievement-description p-3">
+                        <h5><b>Edusave Character Award 2022</b></h5>
+                        <p>Awarded to Students for Demonstrating Exemplary Character and Outstanding Personal Qualities.</p>
+                        <div class="project-tags">
+                            <span class="tag">2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Net.png" class="d-block w-100 achievement-img" alt="ITE Achievement 7" data-toggle="modal" data-target="#iteModal7">
+                    <div class="achievement-description p-3">
+                        <h5><b>Cisco APJC Netacad Riders 2022 Participant</b></h5>
+                        <p>Awarded to Participants in APJC NetAcad Riders 2022.</p>
+                        <div class="project-tags">
+                            <span class="tag">2022</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/ITE/Intern.png" class="d-block w-100 achievement-img" alt="ITE Achievement 8" data-toggle="modal" data-target="#iteModal8">
+                    <div class="achievement-description p-3">
+                        <h5><b>Internship Programme at NEO Electronics Pte Ltd</b></h5>
+                        <p>Completed Internship Programme at NEO Electronics Pte Ltd</p>
+                        <div class="project-tags">
+                            <span class="tag">2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#iteCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#iteCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- Modals for Expanded View of ITE Achievements -->
+        <div class="modal fade custom-modal" id="iteModal1" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Outstanding.png" class="d-block w-100 modal-img" alt="ITE Achievement 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal2" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Eagles.png" class="d-block w-100 modal-img" alt="ITE Achievement 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal3" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Academic.png" class="d-block w-100 modal-img" alt="ITE Achievement 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal4" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel4" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/ITEDlist.png" class="d-block w-100 modal-img" alt="ITE Achievement 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal5" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel5" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Service.png" class="d-block w-100 modal-img" alt="ITE Achievement 5">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal6" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel6" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Character.png" class="d-block w-100 modal-img" alt="ITE Achievement 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal7" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel7" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Net.png" class="d-block w-100 modal-img" alt="ITE Achievement 7">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="iteModal8" tabindex="-1" role="dialog" aria-labelledby="iteModalLabel8" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/ITE/Intern.png" class="d-block w-100 modal-img" alt="ITE Achievement 8">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modals for Expanded View of NYP Achievements -->
+        <div class="modal fade custom-modal" id="nypModal1" tabindex="-1" role="dialog" aria-labelledby="nypModalLabel1" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/NYP/Scholarship.png" class="d-block w-100 modal-img" alt="NYP Achievement 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="nypModal2" tabindex="-1" role="dialog" aria-labelledby="nypModalLabel2" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/NYP/Perform.png" class="d-block w-100 modal-img" alt="NYP Achievement 2">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade custom-modal" id="nypModal3" tabindex="-1" role="dialog" aria-labelledby="nypModalLabel3" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close modal-close-button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                        <img src="IMG/NYP/NYPDlist.png" class="d-block w-100 modal-img" alt="NYP Achievement 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="container-fluid my-5">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">ACTIVITIES</button>
+        </div>
+        <div class="activities-container scroll-animate">
+            <!-- NYP Activities -->
+            <h3 class="activity-title">Nanyang Polytechnic (NYP)</h3>
+            <div class="activity-group">
+                <h4 class="sub-title">Activities and Societies</h4>
+                <ul class="activity-list">
+                    <li>Subcommittee Member of School of IT Club</li>
+                    <li>Member of Community Service Club</li>
+                    <li>World Skills Trainee for IT Network Systems Administration</li>
+                    <li>Class Representative [Y1S1/S2]</li>
+                </ul>
+            </div>
+            <div class="activity-group">
+                <h4 class="sub-title">Events Participated</h4>
+                <ul class="activity-list">
+                    <li>NYP EAE Festival 2024 Volunteer</li>
+                    <li>NYP Freshman Orientation 2024 Volunteer</li>
+                    <li>AISP Cybersecurity Overseas Trip to Philippines 2024</li>
+                    <li>NYP Open House 2024 Volunteer</li>
+                    <li>NYP EAE Festival 2023 Volunteer</li>
+                </ul>
+            </div>
+
+            <!-- ITE Activities -->
+            <h3 class="activity-title">Institute of Technical Education (ITE)</h3>
+            <div class="activity-group">
+                <h4 class="sub-title">Activities and Societies</h4>
+                <ul class="activity-list">
+                    <li>Founding Member of Mixed Reality Club</li>
+                    <li>Internship Programme at NEO Electronics Pte Ltd</li>
+                </ul>
+            </div>
+            <div class="activity-group">
+                <h4 class="sub-title">Events Participated</h4>
+                <ul class="activity-list">
+                    <li>Cisco APJC Netacad Riders 2022 Participant</li>
+                    <li>ITE Parent's Seminar 2022 Volunteer</li>
+                    <li>Video Production for Graduation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personal Details Section -->
+    <section id="personal-details" class="container-fluid my-5">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">PERSONAL DETAILS</button>
+        </div>
+        <div class="details-container scroll-animate">
+            <h3>Contact Details</h3>
+            <p><a href="mailto:soodinaynoah@gmail.com" target="_blank">soodinaynoah@gmail.com</a></p>
+
+            <h3>My Digital Spaces</h3>
+            <p>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/Noaahfx" target="_blank">GitHub</a>
+            </p>
+            <p>
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/noah-feng-xiang-al-soodinay" target="_blank">LinkedIn</a>
+            </p>
+
+            <h3>Location</h3>
+            <p>Singapore</p>
+            <p id="current-time">Loading time...</p>
+
+            <h3>My Resume</h3>
+            <a href="PDF/Noah_Resume.pdf" target="_blank" class="btn-download" download>Download</a>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="JS/home.js"></script>
+    <script src="JS/dropdown.js"></script>
+
+    <!-- Footer Section -->
+    <footer class="footer-container scroll-animate">
+        <p>&copy; <span id="current-year"></span> Noah Feng Xiang Al-Soodinay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
