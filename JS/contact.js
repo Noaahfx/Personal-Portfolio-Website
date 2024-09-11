@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const charCounter = document.getElementById('char-counter');
     const form = document.getElementById('contact-form');
     const responseMessage = document.getElementById('form-response');
+    document.getElementById("current-year").textContent = new Date().getFullYear();
 
     messageInput.addEventListener('input', function () {
         const currentLength = messageInput.value.length;

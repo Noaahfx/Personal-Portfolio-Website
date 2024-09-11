@@ -107,6 +107,7 @@ html, body {
     transform: translateY(-5px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     background: linear-gradient(135deg, #4dd0e1, #b2ebf2);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 /* Titles and Text */
@@ -696,8 +697,9 @@ html, body {
 }
 
 .activities-container:hover {
-    transform: translateY(-10px);
+    transform: scale(1.02) !important;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
 }
 
 .activity-title {
@@ -757,10 +759,29 @@ html, body {
     font-weight: 600;
 }
 
+@media (max-width: 430px) {
+    .footer-container {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer-container {
+        font-size: 1.09rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer-container {
+        font-size: 1.08rem;
+    }
+}
+
+
 /* Animation */
 .scroll-animate {
     opacity: 0;
-    transform: translateY(50px); 
+    transform: translateY(30px); 
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
@@ -769,3 +790,62 @@ html, body {
     opacity: 1;
     transform: translateY(0);
 }
+
+.project-card:hover, .ite-carousel:hover, .nyp-carousel:hover, .details-container:hover, .footer-container:hover{
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+#personal-details .section-button-container {
+    margin-top: 80px; 
+}
+
+/* Skills Section */
+#skills .section-button-container {
+    margin-top: 80px; 
+}
+
+.skills-container {
+    background: linear-gradient(135deg, #b2ebf2, #4dd0e1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+}
+
+.skills-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.skills-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00796b;
+    margin-bottom: 15px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #004d40;
+}
+
+.skills-item {
+    padding: 8px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: padding-left 0.3s;
+}
+
+.skills-item:hover {
+    padding-left: 10px;
+    color: #00796b;
+}
+
