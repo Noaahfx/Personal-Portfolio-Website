@@ -1,0 +1,1684 @@
+annotations:
+  - border_color: '#111010'
+    border_radius: 0
+    border_style: ''
+    color: '#3628D5FF'
+    rotation: 0
+    thickness: 5
+    type: rectangle
+    x1: -760.0
+    y1: 360.0
+    x2: 480.0
+    y2: 480.0
+    z_index: 0
+  - border_color: '#181616'
+    border_style: ''
+    color: '#201C1C'
+    rotation: 0
+    text_bold: false
+    text_content: NYP SIT Internal
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -720.0
+    y1: 400.0
+    z_index: 5
+  - border_color: '#111010'
+    border_radius: 0
+    border_style: ''
+    color: '#ECF50EFF'
+    rotation: 0
+    thickness: 5
+    type: rectangle
+    x1: 120.0
+    y1: 360.0
+    x2: 480.0
+    y2: 480.0
+    z_index: 0
+  - border_color: '#141313'
+    border_style: ''
+    color: '#131111'
+    rotation: 0
+    text_bold: false
+    text_content: NYP SBM Internal
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 160.0
+    y1: 400.0
+    z_index: 5
+  - border_color: '#0E0D0D'
+    border_radius: 0
+    border_style: ''
+    color: '#E70D0DFF'
+    rotation: 0
+    thickness: 5
+    type: rectangle
+    x1: -1000.0
+    y1: -200.0
+    x2: 400.0
+    y2: 240.0
+    z_index: 2
+  - border_color: '#161516'
+    border_style: ''
+    color: '#111011'
+    rotation: 0
+    text_bold: false
+    text_content: DMZ
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -960.0
+    y1: -160.0
+    z_index: 5
+  - border_color: '#0E0D0D'
+    border_radius: 0
+    border_style: ''
+    color: '#0DE741FF'
+    rotation: 0
+    thickness: 5
+    type: rectangle
+    x1: 520.0
+    y1: -240.0
+    x2: 440.0
+    y2: 320.0
+    z_index: 2
+  - border_color: '#0A0A0A'
+    border_style: ''
+    color: '#0F0F0F'
+    rotation: 0
+    text_bold: false
+    text_content: NYP Internal
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 560.0
+    y1: -200.0
+    z_index: 5
+  - border_color: '#0C0B0B'
+    border_radius: 10
+    border_style: ''
+    color: '#E009E9FF'
+    rotation: 0
+    thickness: 5
+    type: rectangle
+    x1: -400.0
+    y1: 200.0
+    x2: 640.0
+    y2: 40.0
+    z_index: 6
+  - border_color: '#111010'
+    border_style: ''
+    color: '#050505'
+    rotation: 0
+    text_bold: false
+    text_content: Tunnel
+    text_font: monospace
+    text_italic: false
+    text_size: 17
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -120.0
+    y1: 200.0
+    z_index: 10
+  - border_color: '#0F0E0EE0'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: 192.168.10.0/29
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -760.0
+    y1: -160.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Admin VLAN(V20)
+      192.168.0.0/27
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 720.0
+    y1: 0.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Server VLAN(V10)
+      192.168.0.32/29
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 720.0
+    y1: -200.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Student VLAN(V10)
+      172.16.0.0/20
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -720.0
+    y1: 760.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Lecturer VLAN(V20)
+      172.16.16.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -440.0
+    y1: 760.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Student VLAN(V10)
+      172.20.0.0/20
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 160.0
+    y1: 760.0
+    z_index: 11
+  - border_color: '#0A0909E7'
+    border_style: ''
+    color: '#0F0E0E'
+    rotation: 0
+    text_bold: false
+    text_content: |-
+      Lecturer VLAN(V20)
+      172.20.16.0/24
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 440.0
+    y1: 760.0
+    z_index: 11
+  - border_color: '#13F70AE0'
+    border_style: ''
+    color: '#080808'
+    rotation: 0
+    text_bold: false
+    text_content: 10.0.0.0/30
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: -440.0
+    y1: 40.0
+    z_index: 11
+  - border_color: '#13F70AE0'
+    border_style: ''
+    color: '#080808'
+    rotation: 0
+    text_bold: false
+    text_content: 10.0.0.4/30
+    text_font: monospace
+    text_italic: false
+    text_size: 12
+    text_unit: pt
+    thickness: 1
+    type: text
+    x1: 200.0
+    y1: 40.0
+    z_index: 11
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 6592 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by Admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname NYP_Router\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\naaa session-id common\n!\n!\n!\nclock timezone SGT\
+          \ 8 0\n!\n!\n!\n!\n!\n!\n!\nip dhcp excluded-address 192.168.0.1\nip dhcp\
+          \ excluded-address 192.168.0.30\n!\nip dhcp pool NYP-Administrators\n network\
+          \ 192.168.0.0 255.255.255.224\n default-router 192.168.0.1\n dns-server\
+          \ 192.168.0.34 192.168.10.2\n lease 200 20 30\n!\n!\n!\nip domain name NYP.SG\n\
+          ip cef\nlogin block-for 60 attempts 3 within 60\nlogin on-success log\n\
+          no ipv6 cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184649\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184649\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184649\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184649\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 39301E17 0D323530\
+          \ 35323031 39323134\n  335A170D 33353035 32303139 32313433 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343930 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 9B4D55ED 82DAEF3B A8B0687C 3CEC5A10 2B54F97C\
+          \ 33FEF362 29AAC690\n  260815C0 DD3A5839 8672A16A 047FCAF4 DA14D094 78D241F8\
+          \ 89E084DD 62BDF33C\n  6950F3B2 B4F25EE6 32E7A14B 727AC138 91AFC070 C780D838\
+          \ 99A48935 1308E0FC\n  76757B41 5BC33F07 B6CD1B77 EFF13F91 73E67C54 41561E07\
+          \ 2B49D086 87EE073E\n  DD2F9442 568297F6 FAF2A9A3 9F9FD39E C5571A13 D766288B\
+          \ EFF52D38 BB593DB3\n  AF63ACDC 899BD964 1E871133 8D260681 E1A9269D FAD759DB\
+          \ E8B3D7CF D376CFD8\n  F66797D0 358F871E 62A8A2E0 217DA2FA 3B6D219F 598A574A\
+          \ 98F05016 42A929C7\n  9D90D58C 0B815CE0 DF1488CE 5263F944 7FFB8309 B3809A8E\
+          \ DEC9FD21 95B2D8C4\n  22D68133 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ F3E70987 27625F93\n  86AEBE2F 3960E8AB CD7B155A 301F0603 551D2304 18301680\
+          \ 14F3E709 8727625F\n  9386AEBE 2F3960E8 ABCD7B15 5A300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 010016EF 3856739A\
+          \ EFD50760 ECC6F7CC\n  B2E0B3B7 564CD54B 15BF23C7 6CA7E2C8 17163677 D35DB686\
+          \ EAE5EDC6 AB022F1D\n  8A2D3163 03F60B5A 064D9F29 B2963E9D 03472153 A4FA3FB6\
+          \ 2A6B592B 6C2A25FE\n  7959C875 2FB2684B C791C9FE 3B39CF25 0BBF7704 9845F96C\
+          \ ACA0AD4D 41F29698\n  961BA6A8 165453C9 E3196C34 8736C95F 85166648 2115226B\
+          \ E65DB2E7 EE6786BA\n  B45EB212 E1423C6D 818C1574 8881EB97 EE142A49 26A96F25\
+          \ 1A709DA1 F14F5AD5\n  B10302EB 208A214A ED0D0305 B661A534 5E6904C7 D4B927F6\
+          \ EB320507 68109B1E\n  2322B222 BF216BA6 4FEB5911 E8D08BAC 876B2C42 98531616\
+          \ 77782627 9807E81F\n  DC6133DA BD717983 3E70D3F8 59A80AFB DCF2\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 80093\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\n!\n!\nusername localadmin secret 9 $9$OqHrkbVQZOZSGU$2t7RS3drP8je6LqXYTc2Bz57hvi7UWjo5TFiCdLwxgc\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface\
+          \ Loopback0\n description SyslogTestWatcher\n no ip address\n shutdown\n\
+          !\ninterface Loopback1\n no ip address\n shutdown\n!\ninterface Ethernet0/0\n\
+          \ ip address 10.255.255.1 255.255.255.0\n ip nat outside\n ip access-group\
+          \ BLOCK_INTERNET_INBOUND in\n!\ninterface Ethernet0/1\n ip address 10.0.0.1\
+          \ 255.255.255.252\n ip nat inside\n ip ospf authentication message-digest\n\
+          \ ip ospf message-digest-key 1 md5 SecureOSPF\n!\ninterface Ethernet0/2\n\
+          \ ip address 10.0.0.5 255.255.255.252\n ip nat inside\n ip ospf authentication\
+          \ message-digest\n ip ospf message-digest-key 1 md5 SecureOSPF\n!\ninterface\
+          \ Ethernet0/3\n no ip address\n shutdown\n!\ninterface Ethernet1/0\n ip\
+          \ address 192.168.10.1 255.255.255.248\n ip nat inside\n!\ninterface Ethernet1/1\n\
+          \ no ip address\n shutdown\n!\ninterface Ethernet1/2\n no ip address\n shutdown\n\
+          !\ninterface Ethernet1/3\n no ip address\n shutdown\n!\ninterface Ethernet2/0\n\
+          \ no ip address\n!\ninterface Ethernet2/0.10\n encapsulation dot1Q 10\n\
+          \ ip address 192.168.0.33 255.255.255.248\n ip nat inside\n!\ninterface\
+          \ Ethernet2/0.20\n encapsulation dot1Q 20\n ip address 192.168.0.1 255.255.255.224\n\
+          \ ip nat inside\n!\ninterface Ethernet2/0.30\n encapsulation dot1Q 30\n\
+          \ ip address 192.168.0.41 255.255.255.248\n!\ninterface Ethernet2/1\n no\
+          \ ip address\n shutdown\n!\ninterface Ethernet2/2\n no ip address\n shutdown\n\
+          !\ninterface Ethernet2/3\n no ip address\n shutdown\n!\nrouter ospf 10\n\
+          \ router-id 3.3.3.3\n area 0 authentication message-digest\n passive-interface\
+          \ Ethernet1/0\n passive-interface Ethernet2/0\n passive-interface Ethernet2/0.10\n\
+          \ passive-interface Ethernet2/0.20\n passive-interface Ethernet2/0.30\n\
+          \ network 10.0.0.0 0.0.0.3 area 0\n network 10.0.0.4 0.0.0.3 area 0\n network\
+          \ 192.168.0.0 0.0.0.31 area 0\n network 192.168.0.32 0.0.0.7 area 0\n network\
+          \ 192.168.0.40 0.0.0.7 area 0\n network 192.168.10.0 0.0.0.7 area 0\n default-information\
+          \ originate always\n!\nip forward-protocol nd\n!\n!\nip http server\nip\
+          \ http secure-server\nip nat inside source static 192.168.10.2 10.255.255.100\n\
+          ip nat inside source list 100 interface Ethernet0/0 overload\nip route 0.0.0.0\
+          \ 0.0.0.0 Ethernet0/0\nip route 172.16.0.0 255.255.240.0 10.0.0.2\nip route\
+          \ 172.16.16.0 255.255.255.0 10.0.0.2\nip route 172.16.17.0 255.255.255.240\
+          \ 10.0.0.2\nip route 172.20.0.0 255.255.240.0 10.0.0.6\nip route 172.20.16.0\
+          \ 255.255.255.0 10.0.0.6\nip route 172.20.17.0 255.255.255.240 10.0.0.6\n\
+          ip ssh bulk-mode 131072\n!\nip access-list extended BLOCK_INTERNET_INBOUND\n\
+          \ 10 permit tcp any host 10.255.255.100 eq www\n 20 permit tcp any host\
+          \ 10.255.255.100 eq 443\n 30 permit tcp any host 10.255.255.100 eq 587\n\
+          \ 40 permit tcp any host 10.255.255.100 eq 993\n 50 permit tcp any any established\n\
+          \ 60 permit icmp any any echo-reply\n 70 deny ip any any\nno logging btrace\n\
+          logging host 192.168.0.34\nip access-list extended 100\n 10 permit ip 192.168.0.32\
+          \ 0.0.0.7 any\n 20 permit ip 192.168.0.0 0.0.0.31 any\n 30 permit ip 192.168.10.0\
+          \ 0.0.0.7 any\n 40 permit ip 172.16.0.0 0.0.15.255 any\n 50 permit ip 172.16.16.0\
+          \ 0.0.0.255 any\n 60 permit ip 172.20.0.0 0.0.15.255 any\n 70 permit ip\
+          \ 172.20.16.0 0.0.0.255 any\n!\n!\n!\n!\nradius server NPS\n address ipv4\
+          \ 192.168.0.34 auth-port 1812 acct-port 1813\n key NYP\n!\n!\ncontrol-plane\n\
+          !\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\nline aux 0\n\
+          line vty 0 4\n exec-timeout 0 0\n transport input ssh\n!\nntp update-calendar\n\
+          ntp server 192.168.0.34\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: NYP Router
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -80
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+      - id: i5
+        label: Ethernet1/0
+        mac_address: null
+        slot: 4
+        type: physical
+      - id: i6
+        label: Ethernet1/1
+        mac_address: null
+        slot: 5
+        type: physical
+      - id: i7
+        label: Ethernet1/2
+        mac_address: null
+        slot: 6
+        type: physical
+      - id: i8
+        label: Ethernet1/3
+        mac_address: null
+        slot: 7
+        type: physical
+      - id: i9
+        label: Ethernet2/0
+        mac_address: null
+        slot: 8
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge2
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: NYP Server
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: 800
+    y: -120
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge3
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: NYP Admin PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: 800
+    y: -40
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5760 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname NYP_SIT_Router\n!\nboot-start-marker\n\
+          boot-end-marker\n!\n!\nlogging buffered 8192\nno logging console\naaa new-model\n\
+          !\n!\naaa group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\naaa session-id common\n!\n!\n!\nclock timezone SGT\
+          \ 8 0\n!\n!\n!\n!\n!\n!\n!\nip dhcp excluded-address 172.16.0.1\nip dhcp\
+          \ excluded-address 172.16.16.1\nip dhcp excluded-address 172.16.15.254\n\
+          ip dhcp excluded-address 172.16.16.254\n!\nip dhcp pool SIT-Students\n network\
+          \ 172.16.0.0 255.255.240.0\n default-router 172.16.0.1\n dns-server 192.168.0.34\
+          \ 192.168.10.2\n lease 200 20 30\n!\nip dhcp pool SIT-Lecturers\n network\
+          \ 172.16.16.0 255.255.255.0\n default-router 172.16.16.1\n dns-server 192.168.0.34\
+          \ 192.168.10.2\n lease 200 20 30\n!\n!\n!\nip domain name NYP.SG\nip cef\n\
+          login block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184641\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184641\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184641\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184641\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 31301E17 0D323530\
+          \ 35323031 39323935\n  385A170D 33353035 32303139 32393538 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343130 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 B646D231 23C70835 3D829B5B 7DC3D9C1 D7B39BA2\
+          \ 73DFD746 41DFDC01\n  096FD1E6 24B1FA20 487C0E2A E5032FBD 8F074995 6E574354\
+          \ FB1537E9 AF9AE909\n  45F873EA AC551A69 077A1818 B3E33681 B257F86B 10013CEA\
+          \ 0A2EA2E4 BEBF2FAC\n  B0482CA1 7B4A76F0 12ABB0F8 4AE9045E 200EA2F2 8BADCB3C\
+          \ 6663185D A161F03E\n  08515E2B 66B63756 A64BB2E2 EF22B61F 9BCF9D09 724BE787\
+          \ AEB0A8AA B24C0338\n  981ECB63 8AEB0D7B E5D177C8 C18CE940 8EC95DAD FA143944\
+          \ AF8D2CED 600AD423\n  D172A75C 64FF3BB1 609A05A5 372CEF79 9233600A 584EDDB8\
+          \ 58E336AF BA81D7C9\n  15F55456 3D8F509B AFF483C8 92D996E6 895B901F 81773FDE\
+          \ 999B1F2C 987E3B2F\n  AA3C2939 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ A6A23AEB 77E4261F\n  41C9A463 BDCDA2D2 D227878A 301F0603 551D2304 18301680\
+          \ 14A6A23A EB77E426\n  1F41C9A4 63BDCDA2 D2D22787 8A300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 0100779F 14878AAF\
+          \ 642D175D 359F48A7\n  DA1719D7 5016CE06 C91EFC8B 52792CBE 376C081C 69375888\
+          \ C2CE0F63 1A1AA85B\n  AF2DF15E 9923C2BC 6594DA56 7CC8734B 94A001B0 53C94613\
+          \ 88D63B6E 0AC498FC\n  927AA5DF 9845F136 9090C844 8F81F9FF D0F5A9AC 8B1C7203\
+          \ AB48BB94 02E8709B\n  48E638C1 8D3E2140 11DA8151 5F35F994 185E1CBB E849345E\
+          \ 6B4867B7 9F70D83C\n  6448FBCA C9BF240A B9C0510D 015B28AA 8C5EFBFA D65B2300\
+          \ 87D00307 A15FEE67\n  A7C40187 ABCA1A78 F2D4C791 3999DAD8 A2B2896D 32452752\
+          \ 12AD85F9 6CE81EA0\n  F9E1E333 852DB700 231990BD 305D7B7A 4455EB19 0CC98BA8\
+          \ D64E8128 33F75036\n  9ECD7E11 3D421BB0 47913A8F 14CE7515 4A09\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 80093\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\n!\n!\nusername cisco secret 9 $9$d6QlcXTqfBlnfk$Wsp/8LEitSBWnlWLlmrl1qisNXrJBudlUpuO6i94nE.\n\
+          username localadmin secret 9 $9$IVLmocb7xj.YMk$KkDCPF2UQjv.ql7o4TiZusPiIUxgfwNRXB7eUeK3qbg\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto isakmp policy 10\n encryption\
+          \ aes\n hash sha256\n authentication pre-share\n group 14\ncrypto isakmp\
+          \ key NYPvpn address 10.0.0.6\n!\n!\ncrypto ipsec transform-set TUNNEL-SET\
+          \ esp-aes esp-sha-hmac\n mode tunnel\n!\n!\n!\ncrypto map VPNMAP 10 ipsec-isakmp\n\
+          \ set peer 10.0.0.6\n set transform-set TUNNEL-SET\n match address 110\n\
+          !\n!\n!\n!\n!\n!\ninterface Loopback0\n no ip address\n shutdown\n!\ninterface\
+          \ Tunnel3\n no ip address\n shutdown\n!\ninterface Tunnel4\n no ip address\n\
+          \ shutdown\n!\ninterface Ethernet0/0\n no ip address\n!\ninterface Ethernet0/0.10\n\
+          \ encapsulation dot1Q 10\n ip address 172.16.0.1 255.255.240.0\n!\ninterface\
+          \ Ethernet0/0.20\n encapsulation dot1Q 20\n ip address 172.16.16.1 255.255.255.0\n\
+          !\ninterface Ethernet0/0.30\n encapsulation dot1Q 30\n ip address 172.16.17.1\
+          \ 255.255.255.240\n!\ninterface Ethernet0/1\n ip address 10.0.0.2 255.255.255.252\n\
+          \ ip ospf authentication message-digest\n ip ospf message-digest-key 1 md5\
+          \ SecureOSPF\n crypto map VPNMAP\n!\ninterface Ethernet0/2\n no ip address\n\
+          \ shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n!\nrouter\
+          \ ospf 10\n router-id 1.1.1.1\n area 0 authentication message-digest\n passive-interface\
+          \ Ethernet0/0\n network 10.0.0.0 0.0.0.3 area 0\n!\nip forward-protocol\
+          \ nd\n!\n!\nip http server\nip http secure-server\nip route 0.0.0.0 0.0.0.0\
+          \ Ethernet0/1\nip ssh bulk-mode 131072\n!\nno logging btrace\nlogging host\
+          \ 192.168.0.34\nip access-list extended 110\n 10 permit ip 172.16.0.0 0.0.15.255\
+          \ 172.20.0.0 0.0.15.255\n 20 permit ip 172.16.0.0 0.0.15.255 172.20.16.0\
+          \ 0.0.0.255\n 30 permit ip 172.16.0.0 0.0.15.255 172.20.17.0 0.0.0.15\n\
+          \ 40 permit ip 172.16.16.0 0.0.0.255 172.20.0.0 0.0.15.255\n 50 permit ip\
+          \ 172.16.16.0 0.0.0.255 172.20.16.0 0.0.0.255\n 60 permit ip 172.16.16.0\
+          \ 0.0.0.255 172.20.17.0 0.0.0.15\n 70 permit ip 172.16.17.0 0.0.0.15 172.20.0.0\
+          \ 0.0.15.255\n 80 permit ip 172.16.17.0 0.0.0.15 172.20.16.0 0.0.0.255\n\
+          \ 90 permit ip 172.16.17.0 0.0.0.15 172.20.17.0 0.0.0.15\n!\n!\n!\n!\nradius\
+          \ server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port 1813\n\
+          \ key NYP\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout 0 0\n\
+          \ logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n transport\
+          \ input ssh\n!\nntp server 192.168.0.34 prefer\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: NYP SIT Router
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -520
+    y: 200
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5616 bytes\n\
+          !\n! Last configuration change at 14:28:28 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname NYP_SBM_Router\n!\nboot-start-marker\n\
+          boot-end-marker\n!\n!\nlogging buffered 8192\nno logging console\naaa new-model\n\
+          !\n!\naaa group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\naaa session-id common\n!\n!\n!\nclock timezone SGT\
+          \ 8 0\n!\n!\n!\n!\n!\n!\n!\nip dhcp excluded-address 172.20.0.1\nip dhcp\
+          \ excluded-address 172.20.16.1\nip dhcp excluded-address 172.20.15.254\n\
+          ip dhcp excluded-address 172.20.16.254\n!\nip dhcp pool SBM-Students\n network\
+          \ 172.20.0.0 255.255.240.0\n default-router 172.20.0.1\n dns-server 192.168.0.34\
+          \ 192.168.10.2\n lease 200 20 30\n!\nip dhcp pool SBM-Lecturers\n network\
+          \ 172.20.16.0 255.255.255.0\n default-router 172.20.16.1\n dns-server 192.168.0.34\
+          \ 192.168.10.2\n lease 200 20 30\n!\n!\n!\nip domain name NYP.SG\nip cef\n\
+          login block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184643\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184643\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184643\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184643\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 33301E17 0D323530\
+          \ 35323031 39333030\n  395A170D 33353035 32303139 33303039 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343330 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 CD7DF2C8 0C07E135 E7205D6C 34F0226A 0171C418\
+          \ E3F7844B 6A54F531\n  64485479 266D464F FB4E7C82 65F47815 AB5D070F 8A110FC4\
+          \ 530FF62A B903481C\n  F0C2CDC0 B901A8CD 2A5035FE C82700D3 6CA1FD1E 8FC8FFFD\
+          \ 6527B27C EACB9023\n  947C7C2A DB0B94AB 3F731BAC 1CDB2882 76B31F2C 430AD0D4\
+          \ 05EFB75D F59A0E59\n  47580710 2FDFAD92 0CA45382 660643A6 AAF1C046 DC038009\
+          \ 0ED17292 0A3C6083\n  8FB7539F E944F7DE 43199060 0C7E21DA 73926E75 76A5A145\
+          \ 42381D1B 2C21935C\n  61408841 98F2E76D FA318CD2 B5BEBC4B EBDFF2DC AA4DF609\
+          \ A2EB2A26 EC2E4A57\n  8157B88F E56471A2 32E1F943 7EE8C99A 3899B120 F8822691\
+          \ 9E7CD606 1C394E51\n  59B36E37 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 56F31E4F 1022B1E7\n  EDCEC2EF F9683B9B D7558FD4 301F0603 551D2304 18301680\
+          \ 1456F31E 4F1022B1\n  E7EDCEC2 EFF9683B 9BD7558F D4300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 0100955A 8EEA3552\
+          \ C05A3761 84F76A24\n  AC17DED4 CC4CA8AF 7D195E3A E1CCEC63 8B879075 5EE84BDE\
+          \ E54C9B94 45C29A54\n  54A68981 87375A9A 3AA9F5BD 52A02E42 F5C9A588 B91675BD\
+          \ F9470EC5 A338BB78\n  F9E11EEE 82EA8282 6CCB4D9A 2B81B048 56B86D02 1ED69876\
+          \ 96210A97 D73DA662\n  09FF2335 B8BC547D 268D8D36 A67A7E17 A87FCB78 28E98613\
+          \ E614EE87 C3A978BC\n  A035B050 CA5220EE 702414A6 87E5A40A 7C10EEAB E3EA02FD\
+          \ DD4C963F 718FF028\n  FBA18F12 E8F8649A 914B22AB FE0DFC65 9B6A8D3D 1EE84DD0\
+          \ 133201AC D8034B2F\n  AC33E9A3 C8A6A791 4940C238 B1A4BDD2 2503372A AE5F54D2\
+          \ C85EBAB6 123B7A1E\n  2B613B21 AD173686 28A39216 AA86EDC1 50CF\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 80093\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\n!\n!\nusername cisco secret 9 $9$/GD1vTuPLLd8ek$2EXxvkz43jvjMM0RrKYefWadnSy6aXZS2QsUjaf4n1E\n\
+          username localadmin secret 9 $9$wn0fXCuPyjD/wU$ya4229I5hzGc5VJ2bKJUkViugCkIS4h3txbwH4f.Rn2\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto isakmp policy 10\n encryption\
+          \ aes\n hash sha256\n authentication pre-share\n group 14\ncrypto isakmp\
+          \ key NYPvpn address 10.0.0.2\n!\n!\ncrypto ipsec transform-set TUNNEL-SET\
+          \ esp-aes esp-sha-hmac\n mode tunnel\n!\n!\n!\ncrypto map VPNMAP 10 ipsec-isakmp\n\
+          \ set peer 10.0.0.2\n set transform-set TUNNEL-SET\n match address 110\n\
+          !\n!\n!\n!\n!\n!\ninterface Ethernet0/0\n no ip address\n!\ninterface Ethernet0/0.10\n\
+          \ encapsulation dot1Q 10\n ip address 172.20.0.1 255.255.240.0\n!\ninterface\
+          \ Ethernet0/0.20\n encapsulation dot1Q 20\n ip address 172.20.16.1 255.255.255.0\n\
+          !\ninterface Ethernet0/0.30\n encapsulation dot1Q 30\n ip address 172.20.17.1\
+          \ 255.255.255.240\n!\ninterface Ethernet0/1\n no ip address\n shutdown\n\
+          !\ninterface Ethernet0/2\n ip address 10.0.0.6 255.255.255.252\n ip ospf\
+          \ authentication message-digest\n ip ospf message-digest-key 1 md5 SecureOSPF\n\
+          \ crypto map VPNMAP\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n\
+          !\nrouter ospf 10\n router-id 2.2.2.2\n area 0 authentication message-digest\n\
+          \ passive-interface Ethernet0/0\n network 10.0.0.4 0.0.0.3 area 0\n!\nip\
+          \ forward-protocol nd\n!\n!\nip http server\nip http secure-server\nip route\
+          \ 0.0.0.0 0.0.0.0 Ethernet0/2\nip ssh bulk-mode 131072\n!\nno logging btrace\n\
+          logging host 192.168.0.34\nip access-list extended 110\n 10 permit ip 172.20.0.0\
+          \ 0.0.15.255 172.16.0.0 0.0.15.255\n 20 permit ip 172.20.0.0 0.0.15.255\
+          \ 172.16.16.0 0.0.0.255\n 30 permit ip 172.20.0.0 0.0.15.255 172.16.17.0\
+          \ 0.0.0.15\n 40 permit ip 172.20.16.0 0.0.0.255 172.16.0.0 0.0.15.255\n\
+          \ 50 permit ip 172.20.16.0 0.0.0.255 172.16.16.0 0.0.0.255\n 60 permit ip\
+          \ 172.20.16.0 0.0.0.255 172.16.17.0 0.0.0.15\n 70 permit ip 172.20.17.0\
+          \ 0.0.0.15 172.16.0.0 0.0.15.255\n 80 permit ip 172.20.17.0 0.0.0.15 172.16.16.0\
+          \ 0.0.0.255\n 90 permit ip 172.20.17.0 0.0.0.15 172.16.17.0 0.0.0.15\n!\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: NYP SBM Router
+    node_definition: iol-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 360
+    y: 200
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge4
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n5
+    image_definition: null
+    label: SIT Student PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: -680
+    y: 680
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge5
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n6
+    image_definition: null
+    label: SIT Lecturer PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: 680
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge6
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n7
+    image_definition: null
+    label: SBM Student PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: 200
+    y: 680
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge7
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n8
+    image_definition: null
+    label: SBM Lecturer PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: 520
+    y: 680
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 4735 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname NYP_Switch\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\n!\naaa session-id common\n!\n!\n!\nclock timezone\
+          \ SGT 8 0\nno ip routing\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip audit notify\
+          \ log\nip audit po max-events 100\nip domain name NYP.SG\nno ip cef\nlogin\
+          \ block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184644\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184644\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184644\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184644\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 34301E17 0D323530\
+          \ 35323031 39333031\n  345A170D 33353035 32303139 33303134 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343430 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 B2306F7D 14DD6129 A2AA861C 1AD83C67 B049BEA3\
+          \ 8435F6F8 AFCC6742\n  38D7129C 893BA7ED DF879CF4 E5A540AB F0FD4D5E 57D1381B\
+          \ C5A1882F BA969E97\n  5D2286B1 4259AA17 4EE7ED82 E8844448 32E00F1A 5FD3207F\
+          \ 714BBE47 06BBB3A6\n  AB12EA60 39C6DCB1 268808C2 16A1E788 CDCA31C0 E2E0E1C9\
+          \ 02E41456 359A5FAB\n  DD3EE787 7E7DF59F 5ED6F9B1 F9527FAD 76F7C400 21018C3D\
+          \ 3C24387C 243FC31D\n  13BD70C9 B6DE19AB 3B7566C2 EDE29E37 A01AC395 DE6C18EB\
+          \ 1D05C464 C8145F4A\n  8EB8C3B8 3EFD0D1D E6295DC6 978BEE07 D9F28DEA B8143B4B\
+          \ 72F32BD0 EB8C819F\n  A8E1D693 0B080D43 8A958788 8CE565FA 3EFE5DDF 4D8B14BE\
+          \ 9A566D68 15B7CF8F\n  9B322A59 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 9A27E408 CFCCF1D6\n  E0CE7680 575832B0 A59C322A 301F0603 551D2304 18301680\
+          \ 149A27E4 08CFCCF1\n  D6E0CE76 80575832 B0A59C32 2A300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 01003233 6407445B\
+          \ 73E2BE70 CCD243EA\n  6DB83630 4711340B 920B38DA 7000ABF0 F871170D FB1E1357\
+          \ A21406BB ADC9F3A9\n  35E2638B 647E6BAD 6AC7C7D1 8E5E86D3 719E785A 8D232C09\
+          \ 533781E2 CC695EA4\n  719E0F54 498816D4 A81FE31A 2FF6434C F0249BC6 80524CE4\
+          \ F8A57AE2 C9EFAC7F\n  10197A31 4F759F2F 5B1A8847 A9AEEFF1 1FF53518 5808C63F\
+          \ 4BFE7570 026AEBB9\n  CE5E2BF8 F4BC1F0D 6EFA8C04 39777FEA 05EEE522 4845CEEF\
+          \ 2AA06DB3 31F89721\n  74A3DEFD F8C58445 2FC90787 D0E4AE27 61F2DB0C 7BF7D5F6\
+          \ 9EE0980A 8E6B1ECF\n  65D99E82 1BCCF055 D5172002 3D1D0A2A FD32DB5D A640A8A5\
+          \ 8584B186 693D00CA\n  7FBE7749 E0636A27 BF63C25C 968EA642 DEF8\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79593\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\nspanning-tree extend system-id\n!\n!\nusername localadmin\
+          \ secret 9 $9$dvrSZmEk.v9lLk$ntcQpSjeSnyQrf/BBPbHSuGfzxxhJAPi7XEEEjZZOGo\n\
+          !\nvlan internal allocation policy ascending\n!\n!\n!\n!\n!\ninterface Ethernet0/0\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n!\n\
+          interface Ethernet0/1\n switchport access vlan 10\n switchport mode access\n\
+          \ switchport nonegotiate\n switchport port-security maximum 2\n switchport\
+          \ port-security violation restrict\n switchport port-security mac-address\
+          \ sticky\n switchport port-security mac-address sticky 000c.295e.a2eb\n\
+          \ switchport port-security mac-address sticky aea2.1fbf.f3ac\n switchport\
+          \ port-security\n spanning-tree bpduguard enable\n spanning-tree guard root\n\
+          !\ninterface Ethernet0/2\n switchport access vlan 20\n switchport mode access\n\
+          \ switchport nonegotiate\n switchport port-security maximum 2\n switchport\
+          \ port-security violation restrict\n switchport port-security mac-address\
+          \ sticky\n switchport port-security mac-address sticky 000c.29e7.07c7\n\
+          \ switchport port-security mac-address sticky e272.8d7f.ef8d\n switchport\
+          \ port-security\n spanning-tree bpduguard enable\n spanning-tree guard root\n\
+          !\ninterface Ethernet0/3\n shutdown\n!\ninterface Vlan30\n ip address 192.168.0.42\
+          \ 255.255.255.248\n no ip route-cache\n!\nip default-gateway 192.168.0.41\n\
+          ip forward-protocol nd\n!\n!\nip http server\nip http secure-server\nip\
+          \ ssh bulk-mode 131072\n!\nno logging btrace\nlogging host 192.168.0.34\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n9
+    image_definition: null
+    label: NYP Switch
+    node_definition: ioll2-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 560
+    y: -80
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5074 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname SIT_Switch\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\n!\naaa session-id common\n!\n!\n!\nclock timezone\
+          \ SGT 8 0\nno ip routing\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip audit notify\
+          \ log\nip audit po max-events 100\nip domain name NYP.SG\nno ip cef\nlogin\
+          \ block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184642\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184642\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184642\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184642\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 32301E17 0D323530\
+          \ 35323031 39333030\n  345A170D 33353035 32303139 33303034 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343230 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 CFF6F9C5 D517D833 C10F50F3 FAB6060B FD232C10\
+          \ 0BFC5FE2 1A6F0133\n  062F8BBA 56845762 71AB2195 28A41E9B 317AA887 C0C4C961\
+          \ 1A76CD7D 243CC6AB\n  04A757FE 16A6BAFD 96954C04 F9D64B29 4476DE5E E42F0D1D\
+          \ 68CAEA8B 4CD9AD90\n  A6566B85 E0652C48 A8702585 B64B780E E032E12C 3FFCC85E\
+          \ D0A99E2E 549EF7F8\n  104CA4E2 4C5D8F3B E15EA731 B207E128 7247B824 3DDD5EE4\
+          \ 178970FD D46CE0AE\n  0AF4BC90 6738345E 9A0E0836 E567A6B3 15B78BF2 57FE41DD\
+          \ E97924ED 4BA4C494\n  44329D83 E2D7D995 75986654 71B71E61 80D07283 C3CD1AD4\
+          \ E2C04822 7F81AA05\n  D45C90B2 AEF5B1F9 285CBF10 B15E2B2C 32125E15 3FE28DD1\
+          \ CA22ACC5 DDD6DA43\n  35E2EEB1 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 57D249C8 7EB51407\n  F99BFF3B 5D07F74D AC7634A2 301F0603 551D2304 18301680\
+          \ 1457D249 C87EB514\n  07F99BFF 3B5D07F7 4DAC7634 A2300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 0100662B 5325B8AB\
+          \ A73172CA 3024DB8D\n  2DFF15AB 1BBAFD8B 6FCF5703 E0472861 8009A4B4 43539523\
+          \ C228AB31 92B4231E\n  C75C8CF0 6B9E1818 B0B02AA3 E84099A4 071F4C95 97E28D1E\
+          \ F0A9FA12 89E70111\n  425F8372 8ABD5487 B2971E69 B6CB864C 878034A3 02E17A40\
+          \ 5DB260CE 244695BB\n  1601868C 6A463601 ED2BB0A7 8A77C0B5 75C953CE 00778FDA\
+          \ C0255A29 FD7B2E8D\n  66761706 13E60483 73C28608 05EA8547 557E83E2 211F8965\
+          \ 934012FC BF3BFD18\n  F75F11E3 B94279BD 0438F080 9211C910 DA927816 1DA5100B\
+          \ 8F2F8590 20C27FB2\n  818C2B27 9E9227ED 48828431 EA8C00C6 A9DC40EA 8C8DF837\
+          \ EA2F56E9 F3ACEE56\n  7C16E828 A5398D55 91C60E5B 848757D5 48F6\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79593\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\nspanning-tree extend system-id\nspanning-tree vlan 10,20,30,99\
+          \ priority 4096\n!\n!\nusername localadmin secret 9 $9$jaOezfG6bKpnZE$lBCina48n9t2O0obNmYmtvLM1SYiN6dfzMcmqBQLZ3Y\n\
+          !\nvlan internal allocation policy ascending\n!\n!\n!\n!\n!\ninterface Port-channel1\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n!\n\
+          interface Port-channel2\n switchport trunk encapsulation dot1q\n switchport\
+          \ trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n switchport\
+          \ mode trunk\n!\ninterface Ethernet0/0\n switchport trunk encapsulation\
+          \ dot1q\n switchport trunk native vlan 99\n switchport trunk allowed vlan\
+          \ 10,20,30,99\n switchport mode trunk\n!\ninterface Ethernet0/1\n switchport\
+          \ trunk encapsulation dot1q\n switchport trunk native vlan 99\n switchport\
+          \ trunk allowed vlan 10,20,30,99\n switchport mode trunk\n channel-group\
+          \ 1 mode active\n!\ninterface Ethernet0/2\n switchport trunk encapsulation\
+          \ dot1q\n switchport trunk native vlan 99\n switchport trunk allowed vlan\
+          \ 10,20,30,99\n switchport mode trunk\n channel-group 1 mode active\n!\n\
+          interface Ethernet0/3\n shutdown\n!\ninterface Ethernet1/0\n shutdown\n\
+          !\ninterface Ethernet1/1\n switchport trunk encapsulation dot1q\n switchport\
+          \ trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n switchport\
+          \ mode trunk\n channel-group 2 mode active\n!\ninterface Ethernet1/2\n switchport\
+          \ trunk encapsulation dot1q\n switchport trunk native vlan 99\n switchport\
+          \ trunk allowed vlan 10,20,30,99\n switchport mode trunk\n channel-group\
+          \ 2 mode active\n!\ninterface Ethernet1/3\n shutdown\n!\ninterface Vlan30\n\
+          \ ip address 172.16.17.2 255.255.255.240\n no ip route-cache\n!\nip default-gateway\
+          \ 172.16.17.1\nip forward-protocol nd\n!\n!\nip http server\nip http secure-server\n\
+          ip ssh bulk-mode 131072\n!\nno logging btrace\nlogging host 192.168.0.34\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n10
+    image_definition: null
+    label: SIT Switch
+    node_definition: ioll2-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -520
+    y: 400
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+      - id: i5
+        label: Ethernet1/0
+        mac_address: null
+        slot: 4
+        type: physical
+      - id: i6
+        label: Ethernet1/1
+        mac_address: null
+        slot: 5
+        type: physical
+      - id: i7
+        label: Ethernet1/2
+        mac_address: null
+        slot: 6
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5458 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname SIT_Switch2\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\n!\naaa session-id common\n!\n!\n!\nclock timezone\
+          \ SGT 8 0\nno ip routing\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip audit notify\
+          \ log\nip audit po max-events 100\nip domain name NYP.SG\nno ip cef\nlogin\
+          \ block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184646\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184646\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184646\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184646\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 36301E17 0D323530\
+          \ 35323031 39333032\n  335A170D 33353035 32303139 33303233 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343630 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 B2F02932 29361C5C B67646C0 098B924B F8E5C965\
+          \ 46DC13CC DC555187\n  F791D9D3 DB85EF77 BA63E4CF 1E8D583C B87D1C0F 986A82DD\
+          \ 38A984B1 75A6FEC6\n  A2DE7BF2 6A991F68 6ABB43B7 A2A4DAE8 E62082A0 1FEAE36F\
+          \ ADAD34B8 7225E672\n  A889D881 2200BEDC CF27F651 D3F0BF7F CCF95310 A8468DBB\
+          \ AA2B3C97 86D5121E\n  A759440D BFD04CFC 552F59D4 013FF88C A06B4A29 D20446D6\
+          \ 6A450758 52C3E8E6\n  84D9A7CA 158F2C7A 9A8B6BE8 D990129C A8D572CF 57B785FC\
+          \ 5BFEE116 77BDDF45\n  E7BB4B78 F766DD20 EEC7922C 44A28819 EEDF0245 FD7E67F4\
+          \ 05EFC644 EC21B91A\n  48289092 CC409E8F 65D386AE B481EA4C 4D32DE9B 62FD46B8\
+          \ BC07B6A0 101A6258\n  AFF8BBFB 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ CA93F24B 0B2CDF82\n  3DED635F 2A1EB411 28B0A2EA 301F0603 551D2304 18301680\
+          \ 14CA93F2 4B0B2CDF\n  823DED63 5F2A1EB4 1128B0A2 EA300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 01001C2A 8375491F\
+          \ 5B44CE07 151B39D7\n  B6F537F5 BE8ADAFA EB99C164 14D49999 8DC1FA3C 3021FEAF\
+          \ F62398D5 67ECE1CC\n  4AC4240E 2A1048CE A55E10FC 87E453AF 6221E971 E4AF2C48\
+          \ D39EC703 00C269FD\n  B1C59294 C709AFC6 A7CE4283 B1AE39E5 741EA822 0C9CE779\
+          \ CC4728EE D37A77B2\n  B64D7941 E274E41C D717B5AC 7F42D4E3 B5773BE2 0BA8468A\
+          \ 18D163A0 AFC2CEB7\n  33258458 23705A85 7904FAF5 8DB25529 A178F918 06E4610B\
+          \ D5A332C5 99DCFAD8\n  0EB81E12 EDBBFCC3 C5508F62 9507E562 4430DCB7 B79856E4\
+          \ 8E1C520D F013DA90\n  ABBFA8AB 0ADAC534 0B6604E1 EAFE5466 FC73CD34 29872A48\
+          \ 61EAF139 66C5C9B8\n  1C9F6889 CFD82C21 411E6463 214319DB E5DB\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79593\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\nspanning-tree extend system-id\n!\n!\nusername localadmin\
+          \ secret 9 $9$2wW.JqWuJaeXu.$zoie9VzA7xGmEUeRlwGwwWwxMANHN2PUFrF0qs62nq2\n\
+          !\nvlan internal allocation policy ascending\n!\n!\n!\n!\n!\ninterface Port-channel1\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n!\n\
+          interface Port-channel3\n switchport trunk encapsulation dot1q\n switchport\
+          \ trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n switchport\
+          \ mode trunk\n!\ninterface Ethernet0/0\n switchport access vlan 10\n switchport\
+          \ mode access\n switchport nonegotiate\n switchport port-security maximum\
+          \ 2\n switchport port-security violation restrict\n switchport port-security\
+          \ mac-address sticky\n switchport port-security mac-address sticky 000c.290a.f630\n\
+          \ switchport port-security mac-address sticky ca04.a6b1.2dbf\n switchport\
+          \ port-security\n spanning-tree portfast\n spanning-tree bpduguard enable\n\
+          \ spanning-tree guard root\n!\ninterface Ethernet0/1\n switchport trunk\
+          \ encapsulation dot1q\n switchport trunk native vlan 99\n switchport trunk\
+          \ allowed vlan 10,20,30,99\n switchport mode trunk\n channel-group 1 mode\
+          \ active\n!\ninterface Ethernet0/2\n switchport trunk encapsulation dot1q\n\
+          \ switchport trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n\
+          \ switchport mode trunk\n channel-group 1 mode active\n!\ninterface Ethernet0/3\n\
+          \ shutdown\n!\ninterface Ethernet1/0\n shutdown\n!\ninterface Ethernet1/1\n\
+          \ shutdown\n!\ninterface Ethernet1/2\n shutdown\n!\ninterface Ethernet1/3\n\
+          \ shutdown\n!\ninterface Ethernet2/0\n shutdown\n!\ninterface Ethernet2/1\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n channel-group\
+          \ 3 mode active\n!\ninterface Ethernet2/2\n switchport trunk encapsulation\
+          \ dot1q\n switchport trunk native vlan 99\n switchport trunk allowed vlan\
+          \ 10,20,30,99\n switchport mode trunk\n channel-group 3 mode active\n!\n\
+          interface Ethernet2/3\n shutdown\n!\ninterface Vlan30\n ip address 172.16.17.3\
+          \ 255.255.255.240\n no ip route-cache\n!\nip default-gateway 172.16.17.1\n\
+          ip forward-protocol nd\n!\n!\nip http server\nip http secure-server\nip\
+          \ ssh bulk-mode 131072\n!\nno logging btrace\nlogging host 192.168.0.34\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n11
+    image_definition: null
+    label: SIT Switch 2
+    node_definition: ioll2-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -680
+    y: 520
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+      - id: i5
+        label: Ethernet1/0
+        mac_address: null
+        slot: 4
+        type: physical
+      - id: i6
+        label: Ethernet1/1
+        mac_address: null
+        slot: 5
+        type: physical
+      - id: i7
+        label: Ethernet1/2
+        mac_address: null
+        slot: 6
+        type: physical
+      - id: i8
+        label: Ethernet1/3
+        mac_address: null
+        slot: 7
+        type: physical
+      - id: i9
+        label: Ethernet2/0
+        mac_address: null
+        slot: 8
+        type: physical
+      - id: i10
+        label: Ethernet2/1
+        mac_address: null
+        slot: 9
+        type: physical
+      - id: i11
+        label: Ethernet2/2
+        mac_address: null
+        slot: 10
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5458 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname SIT_Switch3\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\n!\naaa session-id common\n!\n!\n!\nclock timezone\
+          \ SGT 8 0\nno ip routing\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip audit notify\
+          \ log\nip audit po max-events 100\nip domain name NYP.SG\nno ip cef\nlogin\
+          \ block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184647\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184647\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184647\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184647\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 37301E17 0D323530\
+          \ 35323031 39333032\n  375A170D 33353035 32303139 33303237 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343730 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 A9E0B79A 10C1F145 A378BFEE E56AA644 D95F1022\
+          \ 745F7CC2 CB8BEC11\n  28BAED5E 7B77C00C E54B8193 7C8B804E BE30D54E 90D45607\
+          \ 9D5335BE FE056A8A\n  624DD65D CBF072A9 969C9328 719BB810 9788E0D1 F04D5F95\
+          \ D543D61A 21067520\n  7355C55D 486846B5 92D66FC8 33157464 82BBE970 1AD0A0B4\
+          \ 0D1A0D90 155670BE\n  13940C0C C9AD4514 506C40A7 4184B83F 01C06EBF BEC9DC13\
+          \ 608FDC77 C6D09905\n  383F7B72 802C72EC 505D4204 3604BFBF E0EDFC8C 9DC10649\
+          \ 66971FAC 00F82578\n  84D453B0 78631B00 2DCA3E48 F92CE807 CC2F59CE 413B62DE\
+          \ 0C900E83 68CB1C69\n  0C8D6EF4 3C2231E3 2660441C 2569CD8D 52AC8248 A0EAB562\
+          \ 0864F760 99B1ECD1\n  35ED29FF 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 83457D5A 01A3CAA7\n  5FF341BE C221652C 3D440C3F 301F0603 551D2304 18301680\
+          \ 1483457D 5A01A3CA\n  A75FF341 BEC22165 2C3D440C 3F300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 0100009B 6EFC0CE3\
+          \ C2A6721A 0CF06B6F\n  D47FF84E F9F8C61B 45F456E7 EE47031C 1D534A3D A4086678\
+          \ D020DCD1 200FCBA9\n  C50A4499 0C48BF37 BDBC6117 2B9E2AB5 08AC66FC E75F5885\
+          \ FA262C25 CEB446FA\n  4FD4C6DB 3381750B 3880CE29 7DB063F6 5B988FE5 E1060DAE\
+          \ C3685EC1 C5716409\n  822EBF8F 7A6BB2F2 55B3E1E8 B0CB2A28 DE34F8CD F778AF34\
+          \ E600919B B6369CF8\n  AC3B6740 11DD07A3 578DB3A3 8C737E88 4C97B6EA 947324D5\
+          \ AEB4FE60 13411859\n  E8FE617A DC6FCCE8 4522B01C EA5C3D4C 8979DBBE 7E006FB2\
+          \ 706FE9F1 BEC86D50\n  B2480A43 6BD5D2EF 5BA162AE EAEC4C75 47B55356 753E6BFA\
+          \ 77754662 8DEC9395\n  40E01388 E5C2B17D AFB0A6BE 72290B30 B775\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79593\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\nspanning-tree extend system-id\n!\n!\nusername localadmin\
+          \ secret 9 $9$a/5.mYKakLy8bE$KU58Iuti/3x3IlCRlX8kNSfcMrxd7Dhudnl.Hmi1eI.\n\
+          !\nvlan internal allocation policy ascending\n!\n!\n!\n!\n!\ninterface Port-channel2\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n!\n\
+          interface Port-channel3\n switchport trunk encapsulation dot1q\n switchport\
+          \ trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n switchport\
+          \ mode trunk\n!\ninterface Ethernet0/0\n switchport access vlan 20\n switchport\
+          \ mode access\n switchport nonegotiate\n switchport port-security maximum\
+          \ 2\n switchport port-security violation restrict\n switchport port-security\
+          \ mac-address sticky\n switchport port-security mac-address sticky 000c.29c9.c4de\n\
+          \ switchport port-security mac-address sticky de2a.6a62.3cc3\n switchport\
+          \ port-security\n spanning-tree portfast\n spanning-tree bpduguard enable\n\
+          \ spanning-tree guard root\n!\ninterface Ethernet0/1\n shutdown\n!\ninterface\
+          \ Ethernet0/2\n shutdown\n!\ninterface Ethernet0/3\n shutdown\n!\ninterface\
+          \ Ethernet1/0\n shutdown\n!\ninterface Ethernet1/1\n switchport trunk encapsulation\
+          \ dot1q\n switchport trunk native vlan 99\n switchport trunk allowed vlan\
+          \ 10,20,30,99\n switchport mode trunk\n channel-group 2 mode active\n!\n\
+          interface Ethernet1/2\n switchport trunk encapsulation dot1q\n switchport\
+          \ trunk native vlan 99\n switchport trunk allowed vlan 10,20,30,99\n switchport\
+          \ mode trunk\n channel-group 2 mode active\n!\ninterface Ethernet1/3\n shutdown\n\
+          !\ninterface Ethernet2/0\n shutdown\n!\ninterface Ethernet2/1\n switchport\
+          \ trunk encapsulation dot1q\n switchport trunk native vlan 99\n switchport\
+          \ trunk allowed vlan 10,20,30,99\n switchport mode trunk\n channel-group\
+          \ 3 mode active\n!\ninterface Ethernet2/2\n switchport trunk encapsulation\
+          \ dot1q\n switchport trunk native vlan 99\n switchport trunk allowed vlan\
+          \ 10,20,30,99\n switchport mode trunk\n channel-group 3 mode active\n!\n\
+          interface Ethernet2/3\n shutdown\n!\ninterface Vlan30\n ip address 172.16.17.4\
+          \ 255.255.255.240\n no ip route-cache\n!\nip default-gateway 172.16.17.1\n\
+          ip forward-protocol nd\n!\n!\nip http server\nip http secure-server\nip\
+          \ ssh bulk-mode 131072\n!\nno logging btrace\nlogging host 192.168.0.34\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n12
+    image_definition: null
+    label: SIT Switch 3
+    node_definition: ioll2-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: -360
+    y: 520
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+      - id: i5
+        label: Ethernet1/0
+        mac_address: null
+        slot: 4
+        type: physical
+      - id: i6
+        label: Ethernet1/1
+        mac_address: null
+        slot: 5
+        type: physical
+      - id: i7
+        label: Ethernet1/2
+        mac_address: null
+        slot: 6
+        type: physical
+      - id: i8
+        label: Ethernet1/3
+        mac_address: null
+        slot: 7
+        type: physical
+      - id: i9
+        label: Ethernet2/0
+        mac_address: null
+        slot: 8
+        type: physical
+      - id: i10
+        label: Ethernet2/1
+        mac_address: null
+        slot: 9
+        type: physical
+      - id: i11
+        label: Ethernet2/2
+        mac_address: null
+        slot: 10
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 5005 bytes\n\
+          !\n! Last configuration change at 14:28:27 SGT Thu Aug 14 2025 by admin-1\n\
+          !\nversion 17.15\nservice timestamps debug datetime msec\nservice timestamps\
+          \ log datetime msec\n!\nhostname SBM_Switch\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nlogging buffered 8192\nno logging console\naaa new-model\n!\n!\naaa\
+          \ group server radius NPS-GROUP\n server name NPS\n!\naaa authentication\
+          \ login default group NPS-GROUP local\naaa authorization exec default group\
+          \ NPS-GROUP local\n!\n!\naaa session-id common\n!\n!\n!\nclock timezone\
+          \ SGT 8 0\nno ip routing\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\nip audit notify\
+          \ log\nip audit po max-events 100\nip domain name NYP.SG\nno ip cef\nlogin\
+          \ block-for 60 attempts 3 within 60\nlogin on-success log\nno ipv6 cef\n\
+          !\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184645\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184645\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184645\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184645\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 35301E17 0D323530\
+          \ 35323031 39333031\n  385A170D 33353035 32303139 33303138 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343530 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 A30BB95A D15AE837 AE86D56A 50371684 8CD23C43\
+          \ 5E08A97F 19D7D509\n  7C0FA695 A774FE8E 437BA96E 1ED964CD B6806B92 074E1823\
+          \ 3A58852D 59DB878F\n  26C40016 386F5664 9F924C78 B97CDD08 804C5957 0F998DE5\
+          \ C7A93740 82729CB5\n  E08F4042 8224C5F2 469371ED 6B7253B8 5299F0A2 576EBD15\
+          \ FE885BB6 BBD8A507\n  CA036BC1 86E475AA DB305AFC A823CD9A E76701BA 19B1F827\
+          \ 8ABCC32C 8EE0F488\n  53AC0576 5F63008B 96227CFB 213002DE BE23BDEF A852E457\
+          \ 28729F6B 08CF4A15\n  DA8F9247 1BC6068E 650BF484 3C7E28AD B16C89AC 410B1CED\
+          \ 883E2482 7B3DFA64\n  3DC4B506 C4533361 BABBBD92 A292467D 7FE1566D 4E07B6C4\
+          \ 9EAFD0E8 FA96A362\n  AC8B661F 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 67ACB99A 6CFBCCF6\n  30948213 AA327782 9C826439 301F0603 551D2304 18301680\
+          \ 1467ACB9 9A6CFBCC\n  F6309482 13AA3277 829C8264 39300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 01003F03 8CE346D1\
+          \ A711CF96 8B457E5C\n  63E9CEB5 85680718 DACBE897 F8FEC48F 174C07C4 E8B9D6F1\
+          \ F81277D9 FD7C8CDC\n  7995934A B2F1FEF6 50E5D78C 5063E946 AC2E8297 7758500C\
+          \ A399B94A 37DF0932\n  2219AFEE F485C82F EA85C70D 89477C00 D7050BF9 C07657AA\
+          \ 32079588 922974F2\n  6FD858CE 807C34CB 76326672 E0871427 0F29A104 4987AE16\
+          \ 18FABD07 5DE6A1EE\n  2C934C91 28B20C88 7B32832C 932F3DF1 57EA8786 8EFBBA89\
+          \ C4A31C64 5EBF145E\n  26941B96 683861EA F809E35C EC4D1E37 D74DDB70 1B508D66\
+          \ 0F12B147 2ECF09C2\n  0AEBBABC 5DC12380 39EF7935 31EB5653 8F1FB360 F1F7E76F\
+          \ 99E77C65 1DB21747\n  E2645E85 83FF1147 84157D11 326E0C10 69A3\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79593\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\nspanning-tree extend system-id\n!\n!\nusername localadmin\
+          \ secret 9 $9$ysuh6Rq8Vf0ai.$L.oLZFVdOnBqstxtwL10nFTTB.l7u4edhqdCPqmOe2U\n\
+          !\nvlan internal allocation policy ascending\n!\n!\n!\n!\n!\ninterface Ethernet0/0\n\
+          \ switchport trunk encapsulation dot1q\n switchport trunk native vlan 99\n\
+          \ switchport trunk allowed vlan 10,20,30,99\n switchport mode trunk\n!\n\
+          interface Ethernet0/1\n shutdown\n!\ninterface Ethernet0/2\n shutdown\n\
+          !\ninterface Ethernet0/3\n shutdown\n!\ninterface Ethernet1/0\n switchport\
+          \ access vlan 10\n switchport mode access\n switchport nonegotiate\n switchport\
+          \ port-security maximum 2\n switchport port-security violation restrict\n\
+          \ switchport port-security mac-address sticky\n switchport port-security\
+          \ mac-address sticky 000c.29d3.211a\n switchport port-security mac-address\
+          \ sticky ee05.817c.fcc3\n switchport port-security\n spanning-tree bpduguard\
+          \ enable\n spanning-tree guard root\n!\ninterface Ethernet1/1\n shutdown\n\
+          !\ninterface Ethernet1/2\n shutdown\n!\ninterface Ethernet1/3\n shutdown\n\
+          !\ninterface Ethernet2/0\n switchport access vlan 20\n switchport mode access\n\
+          \ switchport nonegotiate\n switchport port-security maximum 2\n switchport\
+          \ port-security violation restrict\n switchport port-security mac-address\
+          \ sticky\n switchport port-security mac-address sticky 000c.297d.3c21\n\
+          \ switchport port-security mac-address sticky be72.7a1d.faf0\n switchport\
+          \ port-security\n spanning-tree bpduguard enable\n spanning-tree guard root\n\
+          !\ninterface Ethernet2/1\n shutdown\n!\ninterface Ethernet2/2\n shutdown\n\
+          !\ninterface Ethernet2/3\n shutdown\n!\ninterface Vlan30\n ip address 172.20.17.2\
+          \ 255.255.255.240\n no ip route-cache\n!\nip default-gateway 172.20.17.1\n\
+          ip forward-protocol nd\n!\n!\nip http server\nip http secure-server\nip\
+          \ ssh bulk-mode 131072\n!\nno logging btrace\nlogging host 192.168.0.34\n\
+          !\n!\n!\nradius server NPS\n address ipv4 192.168.0.34 auth-port 1812 acct-port\
+          \ 1813\n key NYP\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ transport input ssh\n!\nntp server 192.168.0.34\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n13
+    image_definition: null
+    label: SBM Switch
+    node_definition: ioll2-xe
+    parameters: {}
+    ram: null
+    tags: []
+    x: 360
+    y: 400
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        slot: 0
+        type: physical
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        slot: 1
+        type: physical
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        slot: 2
+        type: physical
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        slot: 3
+        type: physical
+      - id: i5
+        label: Ethernet1/0
+        mac_address: null
+        slot: 4
+        type: physical
+      - id: i6
+        label: Ethernet1/1
+        mac_address: null
+        slot: 5
+        type: physical
+      - id: i7
+        label: Ethernet1/2
+        mac_address: null
+        slot: 6
+        type: physical
+      - id: i8
+        label: Ethernet1/3
+        mac_address: null
+        slot: 7
+        type: physical
+      - id: i9
+        label: Ethernet2/0
+        mac_address: null
+        slot: 8
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge1
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n14
+    image_definition: null
+    label: DMZ Server
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: -920
+    y: -80
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+  - boot_disk_size: null
+    configuration:
+      - name: default
+        content: bridge8
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n15
+    image_definition: null
+    label: Internet PC
+    node_definition: external_connector
+    parameters: {}
+    ram: null
+    tags: []
+    x: -80
+    y: -320
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        slot: 0
+        type: physical
+links:
+  - id: l0
+    n1: n0
+    n2: n3
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: NYP Router-Ethernet0/1<->NYP SIT Router-Ethernet0/1
+  - id: l1
+    n1: n0
+    n2: n4
+    i1: i3
+    i2: i3
+    conditioning: {}
+    label: NYP Router-Ethernet0/2<->NYP SBM Router-Ethernet0/2
+  - id: l2
+    n1: n0
+    n2: n9
+    i1: i9
+    i2: i1
+    conditioning: {}
+    label: NYP Router-Ethernet2/0<->NYP Switch-Ethernet0/0
+  - id: l3
+    n1: n9
+    n2: n1
+    i1: i2
+    i2: i0
+    conditioning: {}
+    label: NYP Switch-Ethernet0/1<->NYP Server-port
+  - id: l4
+    n1: n9
+    n2: n2
+    i1: i3
+    i2: i0
+    conditioning: {}
+    label: NYP Switch-Ethernet0/2<->NYP PC-port
+  - id: l5
+    n1: n3
+    n2: n10
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: NYP SIT Router-Ethernet0/0<->SIT Switch-Ethernet0/0
+  - id: l6
+    n1: n10
+    n2: n11
+    i1: i2
+    i2: i2
+    conditioning: {}
+    label: SIT Switch-Ethernet0/1<->SIT Switch 2-Ethernet0/1
+  - id: l7
+    n1: n10
+    n2: n11
+    i1: i3
+    i2: i3
+    conditioning: {}
+    label: SIT Switch-Ethernet0/2<->SIT Switch 2-Ethernet0/2
+  - id: l8
+    n1: n10
+    n2: n12
+    i1: i6
+    i2: i6
+    conditioning: {}
+    label: SIT Switch-Ethernet1/1<->SIT Switch 3-Ethernet1/1
+  - id: l9
+    n1: n10
+    n2: n12
+    i1: i7
+    i2: i7
+    conditioning: {}
+    label: SIT Switch-Ethernet1/2<->SIT Switch 3-Ethernet1/2
+  - id: l10
+    n1: n11
+    n2: n12
+    i1: i10
+    i2: i10
+    conditioning: {}
+    label: SIT Switch 2-Ethernet2/1<->SIT Switch 3-Ethernet2/1
+  - id: l11
+    n1: n11
+    n2: n12
+    i1: i11
+    i2: i11
+    conditioning: {}
+    label: SIT Switch 2-Ethernet2/2<->SIT Switch 3-Ethernet2/2
+  - id: l12
+    n1: n11
+    n2: n5
+    i1: i1
+    i2: i0
+    conditioning: {}
+    label: SIT Switch 2-Ethernet0/0<->SIT Student PC-port
+  - id: l13
+    n1: n12
+    n2: n6
+    i1: i1
+    i2: i0
+    conditioning: {}
+    label: SIT Switch 3-Ethernet0/0<->SIT Lecturer PC-port
+  - id: l14
+    n1: n4
+    n2: n13
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: NYP SBM Router-Ethernet0/0<->SBM Switch-Ethernet0/0
+  - id: l15
+    n1: n13
+    n2: n7
+    i1: i5
+    i2: i0
+    conditioning: {}
+    label: SBM Switch-Ethernet1/0<->SBM Student PC-port
+  - id: l16
+    n1: n13
+    n2: n8
+    i1: i9
+    i2: i0
+    conditioning: {}
+    label: SBM Switch-Ethernet2/0<->SBM Lecturer PC-port
+  - id: l17
+    n1: n14
+    n2: n0
+    i1: i0
+    i2: i5
+    conditioning: {}
+    label: DMZ Server-port<->NYP Router-Ethernet1/0
+  - id: l18
+    n1: n15
+    n2: n0
+    i1: i0
+    i2: i1
+    conditioning: {}
+    label: Internet PC-port<->NYP Router-Ethernet0/0
+lab:
+  description: ''
+  notes: ''
+  title: SNSPRJ_Noah_Keith_ShengYong(Main)
+  version: 0.3.0

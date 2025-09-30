@@ -86,6 +86,69 @@
             <button class="section-button">PROJECTS</button>
         </div>
         <div class="project-card-container"> <!-- Wrapper for flexbox/grid -->
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal11">
+                <img src="IMG/PRJ/PDFT.png" class="img-fluid rounded project-img" alt="Project 11">
+                <h3><b>PDF Tools</b></h3>
+                <p>
+                    A minimal, on-device PDF utility built with Flask and pywebview. It supports PDF→Word conversion, merging, and page removal with live previews, clean UX, and local file safety. 
+                    Packaged as a native Windows executable for fast and secure use.
+                </p>
+            
+                <div class="project-tags">
+                    <span class="tag">2025</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">CSS</span>
+                </div>
+            </div> 
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal10">
+                <img src="IMG/PRJ/I2T.png" class="img-fluid rounded project-img" alt="Project 10">
+                <h3><b>Image to Text (OCR)</b></h3>
+                <p>
+                    A local image-to-text app built with FastAPI and Tesseract OCR. 
+                    It supports multi-file drag-and-drop, multi-language recognition, preprocessing for accuracy, and smart cleanup with copy-ready outputs. Designed for fast, private OCR with a modern responsive UI.
+                </p>
+            
+                <div class="project-tags">
+                    <span class="tag">2025</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">FastAPI</span>
+                    <span class="tag">Tesseract</span>
+                </div>
+            </div> 
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal9">
+                <img src="IMG/PRJ/SNSPRJ.png" class="img-fluid rounded project-img" alt="Project 9">
+                <h3><b>Systems and Network Security Project</b></h3>
+                <p>
+                    A campus-wide enterprise network for Nanyang Polytechnic, built in Cisco Modeling Labs with VMware VMs. 
+                    It featured OSPF routing, VLAN segmentation, a DMZ with secure services, VPN/RADIUS access, firewalls, NAT/PAT, and advanced hardening to ensure scalable, secure connectivity for students, staff, and remote users.
+                </p>
+            
+                <div class="project-tags">
+                    <span class="tag">2025</span>
+                    <span class="tag">Cisco</span>
+                    <span class="tag">Cisco Modeling Labs</span>
+                    <span class="tag">VMware</span>
+                </div>
+            </div>   
+            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal8">
+                <img src="IMG/PRJ/SNS.png" class="img-fluid rounded project-img" alt="Project 8">
+                <h3><b>Systems and Network Security Assignment</b></h3>
+                <p>
+                    A secure and scalable enterprise network for SAFENET.com built in Cisco Packet Tracer. 
+                    It featured VLAN segmentation, static routing, DHCP/DNS services, NAT/PAT, site-to-site VPN with IPsec, 
+                    firewall/ACL filtering, and advanced hardening (AAA, IPS, wireless security) to simulate real-world corporate infrastructure.
+                </p>
+            
+                <div class="project-tags">
+                    <span class="tag">2025</span>
+                    <span class="tag">Cisco</span>
+                    <span class="tag">Packet Tracer</span>
+                </div>
+            </div>              
             <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal7">
                 <img src="IMG/PRJ/HomeSphere.png" class="img-fluid rounded project-img" alt="Project 7">
                 <h3><b>HomeSphere</b></h3>
@@ -514,20 +577,20 @@
                             
                             <p><strong>Features:</strong></p>
                             <ul>
-                                <li>User registration and authentication with hashed passwords (BCrypt) and email verification.</li>
-                                <li>Email OTP authentication for enhanced login security.</li>
-                                <li>Shopping cart system with real-time updates and Stripe-powered checkout.</li>
-                                <li>Admin dashboard for product, category, and order management using stored procedures.</li>
-                                <li>Advanced search and filters for quick product searches.</li>
-                                <li>Order history and tracking for past purchases.</li>
-                                <li>Security features:
+                                <li><b>User authentication:</b> Registration with hashed passwords (BCrypt) and email verification.</li>
+                                <li><b>Two-factor security:</b> Email OTP authentication for enhanced login protection.</li>
+                                <li><b>Shopping cart:</b> Real-time cart updates with Stripe-powered checkout.</li>
+                                <li><b>Admin dashboard:</b> Manage products, categories, and orders using stored procedures.</li>
+                                <li><b>Product search:</b> Advanced filters for quick and accurate searches.</li>
+                                <li><b>Order tracking:</b> Full history of past purchases with tracking options.</li>
+                                <li><b>Security hardening:</b>
                                     <ul>
-                                        <li>SQL injection and XSS prevention using parameterized queries.</li>
-                                        <li>Session management and secure logouts with session timeouts.</li>
-                                        <li>Password reset via email OTP.</li>
+                                        <li><b>SQL & XSS protection:</b> Parameterized queries prevent injections.</li>
+                                        <li><b>Session management:</b> Secure logouts with session timeouts.</li>
+                                        <li><b>Password recovery:</b> Reset via email OTP.</li>
                                     </ul>
                                 </li>
-                                <li>Hero carousel and featured products dynamically displayed from the database.</li>
+                                <li><b>Dynamic content:</b> Hero carousel and featured products pulled from the database.</li>
                             </ul>
 
                             <p><strong>Technological Components:</strong></p>
@@ -603,6 +666,224 @@
                             <i class="fab fa-github"></i>
                             <a href="https://github.com/Noaahfx/HomeSphere" target="_blank" class="custom-link">GitHub</a>
                         </p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 8 -->
+        <div class="modal fade" id="projectModal8" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel8" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel8"><b>Systems and Network Security Assignment</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/SNS.png" class="img-fluid mb-3" alt="Project 8">
+                        <p><b>About:</b></p>
+                        <p>
+                            This project involved designing and implementing a secure and scalable enterprise network for SAFENET.com, connecting its headquarters and branch offices through simulated ISP routers. Built in Cisco Packet Tracer, the network mirrored real-world corporate infrastructure while ensuring reliable connectivity and strong security.
+                        </p>
+
+                        <p><b>Routing:</b></p>
+                        <p>
+                            Static routing was configured between HQ, Branch, and the ISP. This provided predictable paths, tighter control, and simpler management compared to dynamic protocols, ensuring stable communication across all networks.
+                        </p>
+
+                        <p><b>Design:</b></p>
+                        <p>
+                            The network was segmented into VLANs for servers, users, and management, with VTP propagation across HQ switches. Inter-VLAN routing enabled communication between departments, while DHCP automated IP assignment. A web server was hosted internally and published online through DNAT. NAT and PAT conserved public IPs for outbound traffic, while subnetting supported scalability across HQ and Branch.
+                        </p>
+
+                        <p><b>Features:</b></p>
+                        <ul>
+                            <li><b>DHCP & DNS:</b> Dynamic IP assignment and name resolution across HQ and Branch.</li>
+                            <li><b>NTP & Syslog:</b> Synchronized clocks and centralized logs for monitoring.</li>
+                            <li><b>NAT, PAT & DNAT:</b> Secure internet access and internal web server publishing.</li>
+                            <li><b>VPN (IPsec with ISAKMP):</b> Encrypted site-to-site tunnel between HQ and Branch.</li>
+                            <li><b>AAA & SSH:</b> Centralized authentication via RADIUS and encrypted device management.</li>
+                            <li><b>Firewall & ACLs:</b> Traffic filtering to block unauthorized connections.</li>
+                            <li><b>Intrusion Prevention System (IPS):</b> Real-time threat detection and blocking.</li>
+                            <li><b>Layer 2 Security:</b> Port security, BPDU Guard, and rogue device prevention.</li>
+                            <li><b>Wireless Security:</b> WPA2-PSK with AES for secure wireless access.</li>
+                            <li><b>Additional Hardening:</b> Login banners, honeypot, SSH protections, and timeouts.</li>
+                        </ul>
+
+                        <p>
+                            <strong>Download a copy of my packet tracer file here:<br></strong>
+                            <a href="PKT/SNS.pkt" target="_blank" class="github-link">
+                                <img src="IMG/LOGO/pkt.png" alt="GitHub Icon" class="github-icon">SNS PKT
+                            </a>
+                        </p>
+                    </div>      
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 9 -->
+        <div class="modal fade" id="projectModal9" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel9" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel9"><b>Systems and Network Security Project</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/SNSPRJ.png" class="img-fluid mb-3" alt="Project 9">
+                        <p><b>About:</b></p>
+                        <p>
+                            This project focused on designing and implementing a secure, scalable, and sustainable enterprise-grade campus network for Nanyang Polytechnic using Cisco Modeling Labs (CML) integrated with VMware virtual machines. The Proof of Concept (POC) supported online learning and research while ensuring reliable access for students, lecturers, and administrators on-campus and remotely.
+                        </p>
+
+                        <p><b>Routing:</b></p>
+                        <p>
+                            Dynamic routing was implemented using OSPF with selective static routes. This ensured fast convergence, scalability, and security while keeping sensitive LANs hidden from unnecessary advertisements.
+                        </p>
+
+                        <p><b>Design:</b></p>
+                        <p>
+                            The network was segmented into domains for NYP Core, School of IT, and School of Business Management, each with VLANs and subnets. A DMZ securely hosted public services (web, mail), exposed through static NAT to a simulated internet. Efficient subnetting and virtualization reduced IP wastage and supported scalability.
+                        </p>
+
+                        <p><b>Features:</b></p>
+                        <ul>
+                            <li><b>EtherChannels:</b> Increased bandwidth and redundancy</li>
+                            <li><b>DNS & ADDS:</b> Domain resolution, user management, roaming profiles, GPOs (mapped drives, login banners)</li>
+                            <li><b>HTTP, Mail, HTTPS/TLS & Certificate Authority:</b> Web/email services with certificates and encrypted access</li>
+                            <li><b>VPN & RADIUS:</b> Encrypted remote access with centralized AAA</li>
+                            <li><b>Firewalls & ACLs:</b> Perimeter filtering plus host-based protection</li>
+                            <li><b>IP Config, Routing, NTP & Syslog:</b> Connectivity, synchronized clocks, and logs</li>
+                            <li><b>Routing Protocol Authentication:</b> Secured OSPF updates</li>
+                            <li><b>DHCP:</b> Automated IP assignment</li>
+                            <li><b>VLANs, VTP, STP, Trunks & Inter-VLAN Routing:</b> Segmentation, loop prevention, VLAN communication</li>
+                            <li><b>Port Security, BPDU Guard, Root Guard & DTP Disabled:</b> Blocked spoofing, STP attacks, unauthorized trunks</li>
+                            <li><b>SSH & SSH Security:</b> Encrypted device management with login controls</li>
+                            <li><b>SFTP & FTPS:</b> Secure file transfers</li>
+                            <li><b>NAT & PAT:</b> Conserved public IPs and enabled external access</li>
+                            <li><b>Penetration Testing & Banner Hardening:</b> Verified DMZ exposure, ACLs, minimized info leaks</li>
+                        </ul>
+
+                        <p>
+                            <strong>Download a copy of my CML file here:<br></strong>
+                            <a href="YAML/SNSPRJ.yaml" target="_blank" class="github-link">
+                                <img src="IMG/LOGO/cml.png" alt="CML Icon" class="github-icon">SNSPRJ YAML
+                            </a>
+                        </p>
+                    </div>      
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 10 -->
+        <div class="modal fade" id="projectModal10" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel10" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel10"><b>Image to Text (OCR)</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/I2T2.png" class="img-fluid mb-3" alt="Image to Text OCR Project">
+                        <div class="modal-text">
+                            <p><strong>Project Description:</strong></p>
+                            <p>
+                                A sleek, privacy-first image-to-text app that runs locally with FastAPI and Tesseract OCR. 
+                                Drag & drop images, preview them, and extract clean, copy-ready text with a modern, responsive UI. 
+                                Designed for fast, accurate OCR across multiple languages without sending files to third-party services.
+                            </p>
+
+                            <p><strong>Features:</strong></p>
+                            <ul>
+                                <li><b>Multi-file drag & drop:</b> Preview thumbnails, reorder/remove, and process in one go.</li>
+                                <li><b>Multi-language OCR:</b> Supports multiple Tesseract languages with sensible defaults.</li>
+                                <li><b>Quality boosts:</b> LSTM engine (--oem 1), --psm 6, light pre-processing (e.g., grayscale/upscale for thin strokes).</li>
+                                <li><b>Smart cleanup:</b> Normalizes whitespace and removes zero-width/invisible characters for cleaner output.</li>
+                                <li><b>One-click copy & downloads:</b> Copy extracted text or save each result as .txt.</li>
+                                <li><b>Progress UX:</b> Full-screen loading overlay with live percentage.</li>
+                                <li><b>Health endpoint:</b> GET /api/health returns status and installed OCR languages.</li>
+                                <li><b>On-device privacy:</b> Images are processed locally (or inside your Docker/container runtime).</li>
+                            </ul>
+
+                            <p><strong>Technological Components:</strong></p>
+                            <ul>
+                                <li><b>Backend:</b> FastAPI, Uvicorn, Jinja2 templates, python-multipart for uploads</li>
+                                <li><b>OCR & Imaging:</b> Tesseract via pytesseract, Pillow for light pre-processing</li>
+                                <li><b>Frontend:</b> Vanilla JavaScript, custom CSS (DM Sans), drag-and-drop UI, progress overlay</li>
+                                <li><b>Endpoints:</b> / (web UI), /api/ocr (batch OCR), /api/health (service & language check)</li>
+                                <li><b>Deployment:</b> Runs locally via Uvicorn; suitable for containerization</li>
+                            </ul>
+
+                            <p>
+                                <strong>GitHub repository:<br></strong>
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Noaahfx/Noahs-Image-to-Text" target="_blank" class="custom-link">GitHub</a>
+                            </p>                         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 11 -->
+        <div class="modal fade" id="projectModal11" tabindex="-1" role="dialog" aria-labelledby="projectModalLabel11" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel11"><b>PDF-Tools</b></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="IMG/PRJ/PDFT2.png" class="img-fluid mb-3" alt="PDF-Tools Project">
+                        <div class="modal-text">
+                            <p><strong>Project Description:</strong></p>
+                            <p>
+                                PDF Tools is a fast, minimal PDF utility that runs as a local Flask web app or a native desktop window (via pywebview). 
+                                It focuses on clean UX and safe, temporary, on-device processing. 
+                                You can convert, merge, and remove pages without uploading files to third-party services.
+                            </p>
+
+                            <p><strong>Features:</strong></p>
+                            <ul>
+                                <li><b>PDF → Word (DOCX):</b> Convert PDFs to editable DOCX with custom page re-ordering before export.</li>
+                                <li><b>Merge PDFs:</b> Drag-and-drop multiple PDFs, reorder via Sortable.js, and export a single combined file. Handles empty passwords for lightly encrypted PDFs and reports issues clearly.</li>
+                                <li><b>Remove Pages:</b> Select any pages to delete; the app ensures at least one page remains.</li>
+                                <li><b>Live Previews:</b> Embedded PDF.js viewer for quick visual checks before converting or exporting.</li>
+                                <li><b>Desktop Mode:</b> Ships as a single .exe (Windows) that opens a native window and Save As dialog for downloads.</li>
+                                <li><b>Helpful Errors:</b> Validates file types, order payloads, and sizes; returns meaningful messages for malformed inputs.</li>
+                                <li><b>Security & Reliability:</b>
+                                    <ul>
+                                        <li><b>On-device processing:</b> TemporaryDirectories for safe cleanup.</li>
+                                        <li><b>File safeguards:</b> Size limits & extension whitelist (configurable via env).</li>
+                                        <li><b>Encrypted PDFs:</b> Graceful handling (empty-password try) with clear feedback.</li>
+                                        <li><b>ProxyFix support:</b> Middleware ready for reverse-proxy deployments.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <p><strong>Technological Components:</strong></p>
+                            <ul>
+                                <li><b>Backend:</b> Python, Flask (Blueprints), Werkzeug ProxyFix</li>
+                                <li><b>PDF Processing:</b> PyPDF2 (read/merge/reorder/remove), pdf2docx (PDF→DOCX)</li>
+                                <li><b>Frontend:</b> Jinja templates, PDF.js, Sortable.js, custom CSS (DM Sans)</li>
+                                <li><b>Desktop Integration:</b> pywebview (native window & file dialogs)</li>
+                                <li><b>Packaging:</b> Distributed as a Windows executable in /dist</li>
+                            </ul>
+
+                            <p>
+                                <strong>GitHub repository:<br></strong>
+                                <i class="fab fa-github"></i>
+                                <a href="https://github.com/Noaahfx/PDF-Tools" target="_blank" class="custom-link">GitHub</a>
+                            </p>                         
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1010,6 +1291,7 @@
             <div class="activity-group">
                 <h4 class="sub-title">Activities and Societies</h4>
                 <ul class="activity-list">
+                    <li>Internship Programme at Monetary Authority of Singapore (MAS) [Present]</li>
                     <li>Subcommittee Member of School of IT Club</li>
                     <li>Member of Community Service Club</li>
                     <li>Class Representative [Y1S1/S2 & Y3S1]</li>
@@ -1065,7 +1347,8 @@
                     <ul class="skills-list">
                         <li class="skills-item"><b>Web Development:</b> HTML, CSS, JavaScript, Python, Flask</li>
                         <li class="skills-item"><b>Information Security:</b> Network Security, Database Management (SQL)</li>
-                        <li class="skills-item"><b>Data Analysis:</b> Tableau</li>
+                        <li class="skills-item"><b>Data Analysis:</b> Tableau, KNIME, Orange</li>
+                        <li class="skills-item"><b>Digital Forensics & Cybersecurity Tools:</b> Kali Linux, Wireshark, Autopsy, FTK Imager</li>
                         <li class="skills-item"><b>UX Design:</b> Figma, Canva</li>
                         <li class="skills-item"><b>System Administration:</b> Windows, Windows Server (2016, 2019, 2022), Linux (Debian, Red Hat, Ubuntu)</li>
                         <li class="skills-item"><b>Network Technology:</b> LAN/WAN, TCP/IP, Network Maintenance</li>
