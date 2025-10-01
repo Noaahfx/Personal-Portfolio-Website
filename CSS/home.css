@@ -221,7 +221,7 @@ html, body {
 
 .modal-title {
     font-size: 1.8rem;
-    color: #00796b; 
+    color: #00796b;
 }
 
 .modal-body {
@@ -747,7 +747,7 @@ html, body {
     text-align: center;
     padding: 20px;
     background: linear-gradient(135deg, #b2ebf2, #4dd0e1);
-    color: #004d40;
+    color: #00796b;
     font-size: 1rem;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
@@ -856,4 +856,107 @@ html, body {
     color: #00796b;
 }
 
+.achievement-description {
+  height: 205px;      
+  overflow: hidden;    
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
+.achievement-description .project-tags {
+  margin-top: auto;            
+  padding-top: 10px;          
+}
+
+@media (max-width: 768px) {
+  .achievement-description {
+    height: 235px;  
+  }
+}
+
+
+@media (max-width: 576px) {
+  .achievement-description {
+    height: 285px;  
+  }
+}
+
+.nyp-carousel .carousel-control-prev,
+.nyp-carousel .carousel-control-next,
+.ite-carousel .carousel-control-prev,
+.ite-carousel .carousel-control-next {
+  top: 50%;                        
+  transform: translateY(-50%);
+  bottom: auto;                    
+  height: 80px;                    
+  width: 40px;                      
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nyp-carousel .achievement-img,
+.ite-carousel .achievement-img {
+  position: relative;
+}
+
+.nyp-carousel .carousel-control-prev,
+.nyp-carousel .carousel-control-next,
+.ite-carousel .carousel-control-prev,
+.ite-carousel .carousel-control-next {
+  z-index: 5;                      
+}
+
+.achievement-frame{
+  aspect-ratio: 16 / 9;        
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e0f7fa;        
+}
+
+.achievement-frame .achievement-img{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .nyp-carousel,
+  .ite-carousel {
+    max-width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 22px;
+  }
+
+  .achievement-description {
+    height: 230px;            
+  }
+  #about .col-md-6.text-start {
+    flex: 0 0 70%;    
+    max-width: 70%;
+  }
+
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.7;  
+  }
+
+  #about h2 {
+    font-size: 2.8rem;
+  }
+}
+
+#about h2 {
+  color: #00796b;
+}
+.project-card h3 {
+  color: #00796b;
+}
