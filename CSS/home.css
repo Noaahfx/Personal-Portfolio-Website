@@ -330,7 +330,6 @@ html, body {
 .achievement-img {
     border-radius: 20px 20px 0 0;
     max-width: 100%;
-    max-height: 650px;
     object-fit: contain;
     margin: auto;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -448,20 +447,6 @@ html, body {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .ite-carousel, .nyp-carousel {
-        max-width: 90%;
-        border-radius: 20px;
-    }
-
-    .achievement-img {
-        max-height: 300px;
-    }
-
-    .achievement-description {
-        padding: 10px;
-        font-size: 0.9rem;
-    }
-
     .main-title {
         font-size: 2rem;
     }
@@ -483,10 +468,6 @@ html, body {
     .section-button {
         padding: 8px 16px;
         font-size: 0.9rem;
-    }
-
-    .achievement-img {
-        max-height: 250px;
     }
 
     .achievement-description h5 {
@@ -869,19 +850,6 @@ html, body {
   padding-top: 10px;          
 }
 
-@media (max-width: 768px) {
-  .achievement-description {
-    height: 235px;  
-  }
-}
-
-
-@media (max-width: 576px) {
-  .achievement-description {
-    height: 285px;  
-  }
-}
-
 .nyp-carousel .carousel-control-prev,
 .nyp-carousel .carousel-control-next,
 .ite-carousel .carousel-control-prev,
@@ -928,17 +896,6 @@ html, body {
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
-  .nyp-carousel,
-  .ite-carousel {
-    max-width: 92%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 22px;
-  }
-
-  .achievement-description {
-    height: 230px;            
-  }
   #about .col-md-6.text-start {
     flex: 0 0 70%;    
     max-width: 70%;
@@ -959,4 +916,60 @@ html, body {
 }
 .project-card h3 {
   color: #00796b;
+}
+
+@media (max-width: 768px) {
+    .ite-carousel, .nyp-carousel {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+  .achievement-description {
+    height: 245px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .achievement-frame {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    flex: 0 0 auto;     
+    overflow: hidden;   
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+  }
+
+  .achievement-frame img {
+    width: 100%;
+    height: 100%;
+    display: block;     
+    object-fit: cover;  
+  }
+}
+
+@media (max-width: 768px) {
+  @supports not (aspect-ratio: 1 / 1) {
+    .achievement-frame { position: relative; width: 100%; }
+    .achievement-frame::before { content: ""; display: block; padding-top: 56.25%; }
+    .achievement-frame img {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nyp-carousel,
+  .ite-carousel {
+    max-width: 100%;   
+    margin: 0 auto;  
+  }
+  .achievement-frame {
+    aspect-ratio: 16 / 9;
+  }
+  
+  .achievement-description {
+    height: 210px;          
+  }
 }
