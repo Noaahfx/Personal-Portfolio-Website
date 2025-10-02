@@ -311,7 +311,7 @@ html, body {
 
 /* Achievement Carousels */
 .ite-carousel, .nyp-carousel {
-    max-width: 50%;
+    max-width: 55%;
     margin: auto;
     border-radius: 20px;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
@@ -1024,4 +1024,37 @@ object-fit: cover;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform: translateZ(0);
+}
+
+.nyp-carousel .carousel-inner,
+.ite-carousel .carousel-inner {
+  border-radius: 20px;
+  background: linear-gradient(135deg, #b2ebf2, #4dd0e1);
+}
+
+.nyp-carousel .carousel-control-prev,
+.nyp-carousel .carousel-control-next,
+.ite-carousel .carousel-control-prev,
+.ite-carousel .carousel-control-next {
+  top: calc(50% - 102.5px); 
+  transform: translateY(-50%);
+  bottom: auto;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nyp-carousel .carousel-control-prev,
+  .nyp-carousel .carousel-control-next,
+  .ite-carousel .carousel-control-prev,
+  .ite-carousel .carousel-control-next {
+    top: calc(50% - 105px); 
+  }
+}
+
+@media (max-width: 768px) {
+  .nyp-carousel .carousel-control-prev,
+  .nyp-carousel .carousel-control-next,
+  .ite-carousel .carousel-control-prev,
+  .ite-carousel .carousel-control-next {
+    top: calc(50% - 122.5px); 
+  }
 }
