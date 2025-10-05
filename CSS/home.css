@@ -251,17 +251,6 @@ html, body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
 }
 
-.modal-close-button {
-    color: #00796b;
-    font-size: 1.5rem;
-    transition: transform 0.3s, color 0.3s;
-}
-
-.modal-close-button:hover {
-    color: #004d40;
-    transform: rotate(90deg); 
-}
-
 .close {
     position: absolute;
     top: 15px;
@@ -431,11 +420,14 @@ html, body {
     top: 10px;
     right: 10px;
     font-size: 1.5rem;
+    font-weight: 700;
     color: #00796b;
     border: none;
     background: none;
     cursor: pointer;
     z-index: 1051;
+    transition: transform 0.3s, color 0.3s;
+    font-weight: 700;
 }
 
 .modal-close-button:hover {
@@ -1056,5 +1048,123 @@ object-fit: cover;
   .ite-carousel .carousel-control-prev,
   .ite-carousel .carousel-control-next {
     top: calc(50% - 122.5px); 
+  }
+}
+
+
+#certifications .section-button-container { margin-top: 80px; }
+#certifications .achievement-frame {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+
+#certifications .achievement-frame img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;       
+  background: #e0f7fa;       
+}
+
+#certifications .btn-download {
+  display: inline-flex;       
+  align-items: center;
+  width: auto;                
+  padding: 10px 16px;         
+  font-weight: bold;
+  color: #ffffff; 
+  background-color: #00bfa5; 
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none; 
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+  color: #004d40;
+}
+
+
+#certifications .btn-download:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
+    background-color: #009688; 
+    text-decoration: none !important; 
+}
+
+#certifications .project-tags .tag {
+  line-height: 1.2;
+  padding: 6px 12px;
+}
+
+#certifications .custom-modal .modal-body {
+  padding: 0;
+}
+#certifications .modal-img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;        
+}
+
+#certifications { margin-bottom: 20px !important; }
+#achievements { margin-top: 30px !important; }
+
+#certifications .achievement-description {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 55px;
+}
+
+#certifications .achievement-description .btn-download {
+  position: absolute;
+  right: 20px;
+  display: inline-flex !important;
+  align-items: center;
+  width: auto !important;
+  padding: 10px 20px;
+  white-space: nowrap;
+  border-radius: 12px;
+  bottom: 18px;
+  font-size: 1rem;
+}
+
+#certifications .achievement-description .project-tags {
+  position: absolute;
+  left: 20px;
+  margin: 0;
+  bottom: 18px;
+}
+#certifications .achievement-description .project-tags .tag {
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  #certifications .achievement-description .btn-download {
+    font-size: 0.95rem;
+    padding: 9px 18px;
+    border-radius: 12px;
+    right: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  #certifications .achievement-description .btn-download {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 10px;
+    right: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  #certifications .achievement-description .btn-download {
+    font-size: 0.85rem;
+    padding: 7px 14px;
+    border-radius: 10px;
+    right: 14px;
   }
 }
