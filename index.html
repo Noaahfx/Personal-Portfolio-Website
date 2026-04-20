@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Noah Al-Soodinay</title>
+    <title>Noah Al-Soodinay | Portfolio</title>
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/home.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -31,6 +31,7 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certifications">Certifications</a></li>
             <li><a href="#achievements">Achievements</a></li>
@@ -80,13 +81,77 @@
         </div>
     </section>
 
+    <!-- Experience Section -->
+    <section id="experience" class="container-fluid my-5">
+        <div class="section-button-container scroll-animate">
+            <button class="section-button">EXPERIENCE</button>
+        </div>
+        <div class="experience-container scroll-animate">
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">DevOps Engineer Intern</h3>
+                        <h4 class="experience-company">Monetary Authority of Singapore (MAS)</h4>
+                    </div>
+                    <span class="experience-date">Sep 2025 – Feb 2026</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Architected and built an automated vulnerability scanning pipeline performing Nexus Repository artifact scans and Nexus IQ application analysis across 4 ecosystems and 2 environments, generating reports for 200+ applications and reducing manual validation effort by ~70%.</li>
+                    <li>Designed and deployed 15+ GitLab CI/CD pipelines and reusable templates, including migration of legacy Jenkins pipelines to GitLab CI.</li>
+                    <li>Developed Python REST API automation to fully automate GitLab group and project onboarding, access provisioning, and permission management, reducing manual setup effort by ~80%.</li>
+                    <li>Supported 5+ application teams in OpenShift deployments, DAST pipelines, and CI/CD automation.</li>
+                </ul>
+                <div class="experience-footer">
+                    <div class="project-tags">
+                        <span class="tag">GitLab CI</span>
+                        <span class="tag">OpenShift</span>
+                        <span class="tag">Docker</span>
+                        <span class="tag">Podman</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Nexus IQ</span>
+                        <span class="tag">Bash</span>
+                    </div>
+                    <div class="experience-actions">
+                        <a href="PDF/MAS_Testimonial.pdf" target="_blank" class="btn-experience-download" download>
+                            <i class="fas fa-download" style="margin-right: 8px;"></i>Testimonial
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-role">IT Intern</h3>
+                        <h4 class="experience-company">Neo Electronics Pte. Ltd.</h4>
+                    </div>
+                    <span class="experience-date">Jun 2022 – Aug 2022</span>
+                </div>
+                <ul class="experience-list">
+                    <li>Supported customer service by resolving technical queries and troubleshooting IT issues.</li>
+                    <li>Performed regular maintenance and updates on computer systems.</li>
+                    <li>Assisted with configuration and quality checks of IT devices prior to deployment.</li>
+                </ul>
+                <div class="experience-footer">
+                    <div class="project-tags">
+                        <span class="tag">Technical Support</span>
+                        <span class="tag">System Administration</span>
+                        <span class="tag">Computer Maintenance</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <!-- Projects Section -->
     <section id="projects" class="container-fluid my-5">
         <div class="section-button-container scroll-animate">
             <button class="section-button">PROJECTS</button>
         </div>
         <div class="project-card-container"> <!-- Wrapper for flexbox/grid -->
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal11">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal11">
                 <img src="IMG/PRJ/PDFT.png" class="img-fluid rounded project-img" alt="Project 11">
                 <h3><b>PDF Tools</b></h3>
                 <p>
@@ -102,7 +167,7 @@
                     <span class="tag">CSS</span>
                 </div>
             </div> 
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal10">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal10">
                 <img src="IMG/PRJ/I2T.png" class="img-fluid rounded project-img" alt="Project 10">
                 <h3><b>Image to Text (OCR)</b></h3>
                 <p>
@@ -119,7 +184,7 @@
                     <span class="tag">Tesseract</span>
                 </div>
             </div> 
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal9">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal9">
                 <img src="IMG/PRJ/SNSPRJ.png" class="img-fluid rounded project-img" alt="Project 9">
                 <h3><b>Systems and Network Security Project</b></h3>
                 <p>
@@ -134,7 +199,7 @@
                     <span class="tag">VMware</span>
                 </div>
             </div>   
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal8">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal8">
                 <img src="IMG/PRJ/SNS.png" class="img-fluid rounded project-img" alt="Project 8">
                 <h3><b>Systems and Network Security Assignment</b></h3>
                 <p>
@@ -149,7 +214,7 @@
                     <span class="tag">Packet Tracer</span>
                 </div>
             </div>              
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal7">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal7">
                 <img src="IMG/PRJ/HomeSphere.png" class="img-fluid rounded project-img" alt="Project 7">
                 <h3><b>HomeSphere</b></h3>
                 <p>
@@ -165,7 +230,7 @@
                     <span class="tag">API</span>
                 </div>
             </div>  
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal6">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal6">
                 <img src="IMG/PRJ/PawfectSupplies.png" class="img-fluid rounded project-img" alt="Project 6">
                 <h3><b>Pawfect Supplies</b></h3>
                 <p>
@@ -184,7 +249,7 @@
                     <span class="tag">API</span>
                 </div>
             </div>            
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal0">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal0">
                 <img src="IMG/PRJ/Personal.png" class="img-fluid rounded project-img" alt="Project 0">
                 <h3><b>Personal Portfolio Website</b></h3>
                 <p>
@@ -199,7 +264,7 @@
                     <span class="tag">JavaScript</span>
                 </div>
             </div>
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal1">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal1">
                 <img src="IMG/PRJ/MyUploads.png" class="img-fluid rounded project-img" alt="Project 1">
                 <h3><b>MyUploads</b></h3>
                 <p>A secure file upload and storage platform developed using Python (Flask) with MySQL for database management, and HTML, CSS, and JavaScript for a responsive front-end. 
@@ -216,7 +281,7 @@
                     <span class="tag">API</span>
                 </div>
             </div>
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal4">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal4">
                 <img src="IMG/PRJ/Employee.png" class="img-fluid rounded project-img" alt="Project 4">
                 <h3><b>Employee Management System</b></h3>
                 <p>This application offers a secure and efficient platform for managing employee and customer data using Python. 
@@ -227,7 +292,7 @@
                     <span class="tag">Python</span>
                 </div>
             </div>
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal5">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal5">
                 <img src="IMG/PRJ/NETCOM.png" class="img-fluid rounded project-img" alt="Project 5">
                 <h3><b>Network and Communications Assignment</b></h3>
                 <p>A scalable and secure network topology for a global e-commerce company, featuring VLAN segmentation, 
@@ -239,7 +304,7 @@
                     <span class="tag">Packet Tracer</span>
                 </div>
             </div>
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal2">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal2">
                 <img src="IMG/PRJ/Energy.png" class="img-fluid rounded project-img" alt="Project 2">
                 <h3><b>Sustainable Living Tips and Energy Tracker</b></h3>
                 <p>An application designed to encourage eco-friendly habits and track energy usage, developed using Flask, Python, HTML, CSS, and JavaScript. 
@@ -254,7 +319,7 @@
                     <span class="tag">JavaScript</span>
                 </div>
             </div>
-            <div class="project-card shadow-sm scroll-animate" data-toggle="modal" data-target="#projectModal3">
+            <div class="project-card scroll-animate" data-toggle="modal" data-target="#projectModal3">
                 <img src="IMG/PRJ/UXD.png" class="img-fluid rounded project-img" alt="Project 3">
                 <h3><b>Illumia Hotel - UI/UX Wireframe</b></h3>
                 <p>A Wireframe for a Hotel WebApp that Mainly Focuses on the UI/UX Design.</p>

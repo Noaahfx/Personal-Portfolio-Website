@@ -125,6 +125,10 @@ html, body {
 }
 
 /* About Section*/
+#about {
+    padding-bottom: 2rem !important;
+}
+
 .about-img {
     max-width: 100%;
     height: auto;
@@ -174,7 +178,7 @@ html, body {
     flex: 0 1 calc(50% - 20px);
     max-width: calc(50% - 20px);
     margin-bottom: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1) !important;
 }
 
 .project-card:hover {
@@ -303,7 +307,7 @@ html, body {
     max-width: 55%;
     margin: auto;
     border-radius: 20px;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -312,7 +316,7 @@ html, body {
 
 .ite-carousel:hover, .nyp-carousel:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
 }
 
 /* Achievement Images */
@@ -723,7 +727,7 @@ html, body {
     color: #00796b;
     font-size: 1rem;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     position: relative;
     margin-top: 20px;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -771,7 +775,7 @@ html, body {
     transform: translateY(0);
 }
 
-.project-card:hover, .ite-carousel:hover, .nyp-carousel:hover, .details-container:hover, .footer-container:hover{
+.project-card:hover, .ite-carousel:hover, .nyp-carousel:hover, .details-container:hover, .footer-container:hover, .experience-card:hover {
     transform: scale(1.02);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
@@ -1167,4 +1171,153 @@ object-fit: cover;
     border-radius: 10px;
     right: 14px;
   }
+}
+
+/* Experience Section */
+#experience {
+    padding-bottom: 50px;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.experience-card {
+    background: linear-gradient(135deg, #b2ebf2, #4dd0e1);
+    border-radius: 20px;
+    padding: 24px 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out !important;
+    color: #004d40;
+}
+
+.experience-card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+    background: linear-gradient(135deg, #4dd0e1, #b2ebf2);
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.experience-role {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #00796b;
+    margin: 0;
+}
+
+.experience-company {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #004d40;
+    margin: 4px 0 0;
+}
+
+.experience-date {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #00796b;
+    white-space: nowrap;
+    background: rgba(255,255,255,0.35);
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.experience-list {
+    padding-left: 1.2rem;
+    margin-bottom: 14px;
+    color: #004d40;
+}
+
+.experience-list li {
+    margin-bottom: 6px;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.experience-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-footer .project-tags {
+    margin: 0;
+}
+
+.experience-actions {
+    flex-shrink: 0;
+}
+
+.btn-experience-download {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #004d40;
+    background-color: #00bfa5;
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.btn-experience-download:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    background-color: #009688;
+    text-decoration: none;
+    color: #004d40;
+}
+
+@media (max-width: 768px) {
+    .experience-header {
+        flex-direction: column;
+    }
+
+    .experience-date {
+        align-self: flex-start;
+    }
+
+    .experience-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience-actions {
+        align-self: flex-end;
+    }
+
+    .btn-experience-download {
+        font-size: 0.9rem;
+        padding: 8px 14px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-experience-download {
+        font-size: 0.85rem;
+        padding: 7px 12px;
+        border-radius: 10px;
+    }
 }
